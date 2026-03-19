@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# Data (large files — keep only samples)
+data/crawler_output.jsonl
+data/extracted_knowledge.csv
+
+# KGE datasets (large — keep samples)
+data/kge/train.txt
+data/kge/valid.txt
+data/kge/test.txt
+
+# Models / checkpoints
+*.pt
+*.bin
+*.ckpt
+models/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

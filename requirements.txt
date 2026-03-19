@@ -1,0 +1,26 @@
+# Web crawling & extraction
+httpx>=0.27.0
+trafilatura>=1.12.0
+
+# NLP
+spacy>=3.7.0
+# After install, run: python -m spacy download en_core_web_trf
+
+# Data
+pandas>=2.2.0
+
+# RDF / Knowledge Graph (Lab 2)
+rdflib>=7.0.0
+
+# Reasoning (Lab 3)
+owlready2>=0.46
+
+# KGE (Lab 3)
+pykeen>=1.10.0
+torch>=2.0.0
+
+# RAG (Lab 4)
+ollama>=0.2.0
+
+# Utilities
+tqdm>=4.66.0
