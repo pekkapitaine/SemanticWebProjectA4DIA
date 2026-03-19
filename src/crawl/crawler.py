@@ -25,16 +25,17 @@ logger = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 
 SEED_URLS = [
-    "https://paperswithcode.com/methods/category/language-models",
-    "https://paperswithcode.com/methods/category/transformers",
-    "https://paperswithcode.com/sota/language-modelling-on-penn-treebank-word",
+    # HuggingFace blog — crawl-friendly, rich in AI research content
     "https://huggingface.co/blog/bert-101",
     "https://huggingface.co/blog/large-language-models",
-    "https://en.wikipedia.org/wiki/Large_language_model",
-    "https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)",
-    "https://en.wikipedia.org/wiki/BERT_(language_model)",
-    "https://en.wikipedia.org/wiki/GPT-4",
-    "https://en.wikipedia.org/wiki/Attention_mechanism",
+    "https://huggingface.co/blog/rlhf",
+    "https://huggingface.co/blog/llama2",
+    "https://huggingface.co/blog/falcon",
+    "https://huggingface.co/blog/mixtral",
+    "https://huggingface.co/blog/open-llm-leaderboard-v2",
+    "https://huggingface.co/blog/gemma",
+    "https://huggingface.co/blog/starcoder",
+    "https://huggingface.co/blog/inference-endpoints-llm",
 ]
 
 OUTPUT_PATH = Path(__file__).parent.parent.parent / "data" / "crawler_output.jsonl"
@@ -75,12 +76,19 @@ def can_fetch(url: str) -> bool:
 
 def fetch_and_extract(url: str, client: httpx.Client) -> dict | None:
     """
-    Fetch a URL and extract main content with trafilatura.
+    Fetch a URL and extract main content.
+    Handles Wikipedia API JSON responses separately from regular HTML pages.
     Returns a dict with url, title, text, word_count, or None if extraction fails.
     """
-    if not can_fetch(url):
+    # Wikipedia API is explicitly designed for programmatic access (Allow: /w/api.php)
+    is_wikipedia_api = "wikipedia.org/w/api.php" in url
+    if not is_wikipedia_api and not can_fetch(url):
         logger.warning(f"Blocked by robots.txt: {url}")
         return None
+
+    # Wikipedia REST API — extract plain text from JSON response
+    if is_wikipedia_api:
+        return _fetch_wikipedia_api(url, client)
 
     try:
         response = client.get(url, timeout=15)
@@ -119,6 +127,38 @@ def fetch_and_extract(url: str, client: httpx.Client) -> dict | None:
         "date": data.get("date", ""),
         "hostname": data.get("hostname", ""),
     }
+
+
+def _fetch_wikipedia_api(url: str, client: httpx.Client) -> dict | None:
+    """Fetch a Wikipedia API URL and extract plain text from the JSON response."""
+    try:
+        response = client.get(url, timeout=15)
+        response.raise_for_status()
+        data = response.json()
+    except Exception as e:
+        logger.error(f"Wikipedia API error for {url}: {e}")
+        return None
+
+    pages = data.get("query", {}).get("pages", {})
+    for page in pages.values():
+        title = page.get("title", "")
+        text = page.get("extract", "")
+        if not text:
+            logger.warning(f"No extract for Wikipedia page: {title}")
+            return None
+        word_count = len(text.split())
+        if word_count < MIN_WORD_COUNT:
+            logger.info(f"Skipped Wikipedia page (too short, {word_count} words): {title}")
+            return None
+        return {
+            "url": url,
+            "title": title,
+            "text": text,
+            "word_count": word_count,
+            "date": "",
+            "hostname": "en.wikipedia.org",
+        }
+    return None
 
 
 # ---------------------------------------------------------------------------
