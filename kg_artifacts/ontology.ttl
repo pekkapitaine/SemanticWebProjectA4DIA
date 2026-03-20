@@ -1,0 +1,139 @@
+@prefix : <http://semanticweb.esilv.fr/aikg/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+# ============================================================
+# Ontology metadata
+# ============================================================
+
+: a owl:Ontology ;
+    dcterms:title "AI Research Knowledge Graph Ontology" ;
+    dcterms:description "Ontology for the AI Research domain, covering language models, organizations, researchers, datasets and benchmarks." ;
+    dcterms:creator "ESILV A4 DIA6 - Semantic Web Project" ;
+    owl:versionInfo "1.0" .
+
+# ============================================================
+# Classes
+# ============================================================
+
+:AIModel a owl:Class ;
+    rdfs:label "AI Model" ;
+    rdfs:comment "A machine learning model, including language models, vision models, etc." .
+
+:LanguageModel a owl:Class ;
+    rdfs:subClassOf :AIModel ;
+    rdfs:label "Language Model" ;
+    rdfs:comment "An AI model trained on text data for NLP tasks." .
+
+:Organization a owl:Class ;
+    rdfs:label "Organization" ;
+    rdfs:comment "A company, research institution, or other organization." .
+
+:ResearchOrganization a owl:Class ;
+    rdfs:subClassOf :Organization ;
+    rdfs:label "Research Organization" ;
+    rdfs:comment "An organization primarily focused on research." .
+
+:TechCompany a owl:Class ;
+    rdfs:subClassOf :Organization ;
+    rdfs:label "Tech Company" ;
+    rdfs:comment "A technology company." .
+
+:Researcher a owl:Class ;
+    rdfs:label "Researcher" ;
+    rdfs:comment "A person who conducts research." .
+
+:Dataset a owl:Class ;
+    rdfs:label "Dataset" ;
+    rdfs:comment "A dataset used for training or evaluating AI models." .
+
+:Benchmark a owl:Class ;
+    rdfs:subClassOf :Dataset ;
+    rdfs:label "Benchmark" ;
+    rdfs:comment "A standardized evaluation benchmark." .
+
+:Technique a owl:Class ;
+    rdfs:label "Technique" ;
+    rdfs:comment "A machine learning technique or method." .
+
+:Publication a owl:Class ;
+    rdfs:label "Publication" ;
+    rdfs:comment "A research paper or technical report." .
+
+# ============================================================
+# Object Properties
+# ============================================================
+
+:developedBy a owl:ObjectProperty ;
+    rdfs:label "developed by" ;
+    rdfs:domain :AIModel ;
+    rdfs:range :Organization ;
+    rdfs:comment "The organization that developed an AI model." .
+
+:authoredBy a owl:ObjectProperty ;
+    rdfs:label "authored by" ;
+    rdfs:domain :Publication ;
+    rdfs:range :Researcher ;
+    rdfs:comment "The researcher who authored a publication." .
+
+:affiliatedWith a owl:ObjectProperty ;
+    rdfs:label "affiliated with" ;
+    rdfs:domain :Researcher ;
+    rdfs:range :Organization ;
+    rdfs:comment "The organization a researcher is affiliated with." .
+
+:basedOn a owl:ObjectProperty ;
+    rdfs:label "based on" ;
+    rdfs:domain :AIModel ;
+    rdfs:range :AIModel ;
+    rdfs:comment "A model that derives from another model." .
+
+:trainedOn a owl:ObjectProperty ;
+    rdfs:label "trained on" ;
+    rdfs:domain :AIModel ;
+    rdfs:range :Dataset ;
+    rdfs:comment "Dataset used to train a model." .
+
+:evaluatedOn a owl:ObjectProperty ;
+    rdfs:label "evaluated on" ;
+    rdfs:domain :AIModel ;
+    rdfs:range :Benchmark ;
+    rdfs:comment "Benchmark used to evaluate a model." .
+
+:uses a owl:ObjectProperty ;
+    rdfs:label "uses" ;
+    rdfs:comment "General 'uses' relationship between resources." .
+
+:requires a owl:ObjectProperty ;
+    rdfs:label "requires" ;
+    rdfs:comment "General dependency relationship." .
+
+# ============================================================
+# Datatype Properties
+# ============================================================
+
+:releaseDate a owl:DatatypeProperty ;
+    rdfs:label "release date" ;
+    rdfs:domain :AIModel ;
+    rdfs:range xsd:gYear ;
+    rdfs:comment "Year an AI model was released." .
+
+:parameterCount a owl:DatatypeProperty ;
+    rdfs:label "parameter count" ;
+    rdfs:domain :AIModel ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Number of parameters in the model (e.g. '7B', '70B')." .
+
+:sourceURL a owl:DatatypeProperty ;
+    rdfs:label "source URL" ;
+    rdfs:range xsd:anyURI ;
+    rdfs:comment "URL of the web source where this entity was mentioned." .
+
+:confidence a owl:DatatypeProperty ;
+    rdfs:label "alignment confidence" ;
+    rdfs:range xsd:decimal ;
+    rdfs:comment "Confidence score for an entity alignment (0.0–1.0)." .
