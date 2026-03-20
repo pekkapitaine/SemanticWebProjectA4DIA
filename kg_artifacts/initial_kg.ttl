@@ -1,0 +1,1582 @@
+@prefix : <http://semanticweb.esilv.fr/aikg/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+: a owl:Ontology ;
+    dcterms:creator "ESILV A4 DIA6 - Semantic Web Project" ;
+    dcterms:description "Ontology for the AI Research domain, covering language models, organizations, researchers, datasets and benchmarks." ;
+    dcterms:title "AI Research Knowledge Graph Ontology" ;
+    owl:versionInfo "1.0" .
+
+:13B a :AIModel ;
+    rdfs:label "13B"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:16 a :AIModel ;
+    rdfs:label "16"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:175B_LM a :AIModel ;
+    rdfs:label "175B LM"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:1953 rdfs:label "1953"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:2008 rdfs:label "2008"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:2011 rdfs:label "2011"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:2015 rdfs:label "2015"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI,
+        "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:2016 rdfs:label "2016"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:2017 rdfs:label "2017"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI,
+        "https://huggingface.co/blog/large-language-models"^^xsd:anyURI,
+        "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:2018 rdfs:label "2018"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI,
+        "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:2019 rdfs:label "2019"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI,
+        "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:2020 rdfs:label "2020"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:2021 rdfs:label "2021"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:2022 rdfs:label "2022"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:2023 rdfs:label "2023"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:2B a :AIModel ;
+    rdfs:label "2B"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:3090 a :AIModel ;
+    rdfs:label "3090"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:4090 a :AIModel ;
+    rdfs:label "4090"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:40B a :AIModel ;
+    rdfs:label "40B"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:40b a :AIModel ;
+    rdfs:label "40b"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:431 rdfs:label "4.31"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:436 rdfs:label "4.36"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:4_days rdfs:label "4 days"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:6B a :AIModel ;
+    rdfs:label "6B"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:7B a :AIModel ;
+    rdfs:label "7B"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:80 a :AIModel ;
+    rdfs:label "80"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:A10 a :AIModel ;
+    rdfs:label "A10"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:A100 a :AIModel ;
+    rdfs:label "A100"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:A100s a :AIModel ;
+    rdfs:label "A100s"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:A6000 a :AIModel ;
+    rdfs:label "A6000"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:AMC a :Organization ;
+    rdfs:label "AMC"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:API a :Organization ;
+    rdfs:label "API"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:AWS a :Organization ;
+    rdfs:label "AWS"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:A_month rdfs:label "A month"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Alex a :Researcher ;
+    rdfs:label "Alex"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:AlexNet a :AIModel ;
+    rdfs:label "AlexNet"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:AlpacaEval a :AIModel ;
+    rdfs:label "AlpacaEval"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:Amazon a :Organization ;
+    rdfs:label "Amazon"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:Amazon_Mechanical_Turk a :Organization ;
+    rdfs:label "Amazon Mechanical Turk"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Ammanabrolu a :Researcher ;
+    rdfs:label "Ammanabrolu"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Anthropic a :Organization ;
+    rdfs:label "Anthropic"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI,
+        "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:Apache_20 a :AIModel ;
+    rdfs:label "Apache 2.0"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI,
+        "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:Arthur a :Researcher ;
+    rdfs:label "Arthur"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Arthur_Zucker a :Researcher ;
+    rdfs:label "Arthur Zucker"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:Artzi a :Researcher ;
+    rdfs:label "Artzi"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Atari a :Organization ;
+    rdfs:label "Atari"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Attention_Is_All_You_Need_paper a :Publication ;
+    rdfs:label "Attention Is All You Need paper"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:AutoTokenizer a :AIModel ;
+    rdfs:label "AutoTokenizer"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:Azure a :Organization ;
+    rdfs:label "Azure"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:BART a :Organization ;
+    rdfs:label "BART"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:BERT a :AIModel ;
+    rdfs:label "BERT"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI,
+        "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:BERT_Large a :AIModel ;
+    rdfs:label "BERT-Large"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:BERTbase a :AIModel ;
+    rdfs:label "BERTbase"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:BERTlarge a :AIModel ;
+    rdfs:label "BERTlarge"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:Bahdanau a :Researcher ;
+    rdfs:label "Bahdanau"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Baltimore a :Organization ;
+    rdfs:label "Baltimore"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:Band_of_Brothers a :Publication ;
+    rdfs:label "Band of Brothers"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:BigCode a :Organization ;
+    rdfs:label "BigCode"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:BooksCorpus a :Organization ;
+    rdfs:label "BooksCorpus"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:Breaking_Bad a :Publication ;
+    rdfs:label "Breaking Bad"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:CarperAI a :Organization ;
+    rdfs:label "CarperAI"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Castricato a :Researcher ;
+    rdfs:label "Castricato"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:ChatGPT a :AIModel ;
+    rdfs:label "ChatGPT"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Christiano a :Researcher ;
+    rdfs:label "Christiano"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Cloze a :Researcher ;
+    rdfs:label "Cloze"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:Clémentine_Fourrier a :Researcher ;
+    rdfs:label "Clémentine Fourrier"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:CodeGen a :AIModel ;
+    rdfs:label "CodeGen"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:CodeGen_16B_Mono a :AIModel ;
+    rdfs:label "CodeGen-16B-Mono"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:Codex a :AIModel ;
+    rdfs:label "Codex"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:Cohen a :Researcher ;
+    rdfs:label "Cohen"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Colab a :AIModel,
+        :Organization ;
+    rdfs:label "Colab"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:CommonCrawl a :AIModel ;
+    rdfs:label "CommonCrawl"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:Computer_Vision a :AIModel ;
+    rdfs:label "Computer Vision"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:Copilot a :AIModel ;
+    rdfs:label "Copilot"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:Core_ML a :AIModel ;
+    rdfs:label "Core ML"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:DGX a :AIModel ;
+    rdfs:label "DGX"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:DGX_A100 a :AIModel ;
+    rdfs:label "DGX A100"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:DS_1000 a :AIModel ;
+    rdfs:label "DS-1000"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:David a :Researcher ;
+    rdfs:label "David"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:DeepMind a :Organization ;
+    rdfs:label "DeepMind"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:DistilBART a :AIModel ;
+    rdfs:label "DistilBART"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:DistilBERT a :AIModel ;
+    rdfs:label "DistilBERT"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI,
+        "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:Docker a :AIModel ;
+    rdfs:label "Docker"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:EQ_Bench a :AIModel ;
+    rdfs:label "EQ Bench"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Earthorg a :Organization ;
+    rdfs:label "Earth.org"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:Elo a :AIModel ;
+    rdfs:label "Elo"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Endpoint a :AIModel ;
+    rdfs:label "Endpoint"@en ;
+    :sourceURL "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI .
+
+:Evaluation a :AIModel ;
+    rdfs:label "Evaluation"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:Facebook a :Organization ;
+    rdfs:label "Facebook"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:Falcon a :AIModel ;
+    rdfs:label "Falcon"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:Falcon_40B a :AIModel ;
+    rdfs:label "Falcon 40B"@en,
+        "Falcon-40B"@en ;
+    :require "~90GB"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI .
+
+:Falcon_40B_Instruct a :AIModel ;
+    rdfs:label "Falcon-40B-Instruct"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:Falcon_7B a :AIModel ;
+    rdfs:label "Falcon-7B"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:Falcon_7B_Instruct a :AIModel ;
+    rdfs:label "Falcon-7B-Instruct"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:Falcon_7b a :AIModel ;
+    rdfs:label "Falcon 7b"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:Few_months rdfs:label "Few months"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:Flash_Attention a :AIModel ;
+    rdfs:label "Flash Attention"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:Flash_Attention_2_utilities a :AIModel ;
+    rdfs:label """Flash Attention 2
+- utilities"""@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Flax a :AIModel ;
+    rdfs:label "Flax"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:G a :AIModel ;
+    rdfs:label "G"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:GKE a :AIModel ;
+    rdfs:label "GKE"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:GPT35 a :AIModel ;
+    rdfs:label "GPT3.5"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:GPTQ a :AIModel ;
+    rdfs:label "GPTQ"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:GPT_4_Turbo a :AIModel ;
+    rdfs:label "GPT-4 Turbo"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:GPUs a :AIModel ;
+    rdfs:label "GPUs"@en ;
+    :sourceURL "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI .
+
+:Ganguli a :Researcher ;
+    rdfs:label "Ganguli"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Gao a :Researcher ;
+    rdfs:label "Gao"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Gemini a :AIModel ;
+    rdfs:label "Gemini"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Gemma_2B a :AIModel ;
+    rdfs:label "Gemma 2B"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Gemma_Instruct a :AIModel ;
+    rdfs:label "Gemma Instruct"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Germany a :Organization ;
+    rdfs:label "Germany"@en ;
+    :sourceURL "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI .
+
+:Git a :AIModel ;
+    rdfs:label "Git"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:GitHub a :Organization ;
+    rdfs:label "GitHub"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:Glaese a :Researcher ;
+    rdfs:label "Glaese"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Google a :Organization ;
+    rdfs:label "Google"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI,
+        "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:Google_AI_Language a :Organization ;
+    rdfs:label "Google AI Language"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:Google_Books a :Organization ;
+    rdfs:label "Google Books"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:Google_Cloud a :Organization ;
+    rdfs:label "Google Cloud"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Google_Colab a :Organization ;
+    rdfs:label "Google Colab"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI,
+        "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Google_Kubernetes_Engine a :Organization ;
+    rdfs:label "Google Kubernetes Engine"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Google_Translate a :Organization ;
+    rdfs:label "Google Translate"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:Gopher a :AIModel ;
+    rdfs:label "Gopher"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Graphcore a :AIModel ;
+    rdfs:label "Graphcore"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:Guanaco a :AIModel ;
+    rdfs:label "Guanaco"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:HBO a :Organization ;
+    rdfs:label "HBO"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:Habana a :AIModel ;
+    rdfs:label "Habana"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:Harm_de_Vries a :Organization ;
+    rdfs:label "Harm de Vries"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:Havrilla a :Researcher ;
+    rdfs:label "Havrilla"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Hub a :Organization ;
+    rdfs:label "Hub"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:HuggingChat a :AIModel ;
+    rdfs:label "HuggingChat"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:Hugging_Chat a :AIModel,
+        :Organization,
+        :Publication ;
+    rdfs:label "Hugging Chat"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:Hugging_Face a :Organization ;
+    rdfs:label "Hugging Face"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI,
+        "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/large-language-models"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI,
+        "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:Hugging_Face_Blog a :Organization ;
+    rdfs:label "Hugging Face Blog"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Hugging_Face_Chat a :Organization ;
+    rdfs:label "Hugging Face Chat"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:Hugging_Face_Inference_Endpoints a :Organization ;
+    rdfs:label "Hugging Face Inference Endpoints"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:Hugging_Faces a :Organization ;
+    rdfs:label "Hugging Face's"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI,
+        "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:HumanEval a :AIModel ;
+    rdfs:label "HumanEval"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI,
+        "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:Igor_Kotenkov a :Researcher ;
+    rdfs:label "Igor Kotenkov"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Illustrating_Reinforcement_Learning_from_Human_Feedback a :Publication ;
+    rdfs:label "Illustrating Reinforcement Learning from Human Feedback"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Inference_Endpoints a :AIModel ;
+    rdfs:label "Inference Endpoints"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:Inferentia a :AIModel ;
+    rdfs:label "Inferentia"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:Infinity a :AIModel ;
+    rdfs:label "Infinity"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:Instruct a :AIModel,
+        :Organization ;
+    rdfs:label "Instruct"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:InstructGPT a :AIModel ;
+    rdfs:label "InstructGPT"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:JAX_Flax a :AIModel ;
+    rdfs:label "JAX / Flax"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:John_Schulman a :Researcher ;
+    rdfs:label "John Schulman"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Jupyter a :AIModel ;
+    rdfs:label "Jupyter"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:KL a :Organization ;
+    rdfs:label "KL"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Khanh_X_Nguyen a :Researcher ;
+    rdfs:label "Khanh X. Nguyen"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Knox a :Researcher ;
+    rdfs:label "Knox"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Kojima a :Researcher ;
+    rdfs:label "Kojima"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:LLM a :AIModel,
+        :Organization ;
+    rdfs:label "LLM"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI .
+
+:LLMs a :AIModel ;
+    rdfs:label "LLMs"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:LLaMA a :AIModel ;
+    rdfs:label "LLaMA"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:LLaMA_33B a :AIModel ;
+    rdfs:label "LLaMA-33B"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:LLaMa_65B a :AIModel ;
+    rdfs:label "LLaMa 65B"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:LLama_2 a :AIModel ;
+    rdfs:label "LLama 2"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:LM a :AIModel ;
+    rdfs:label "LM"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:LaMDA a :AIModel ;
+    rdfs:label "LaMDA"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:Lambert a :AIModel ;
+    rdfs:label "Lambert"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:LanguageModel a owl:Class ;
+    rdfs:label "Language Model" ;
+    rdfs:comment "An AI model trained on text data for NLP tasks." ;
+    rdfs:subClassOf :AIModel .
+
+:Leandro a :Researcher ;
+    rdfs:label "Leandro"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Leandro_von_Werra a :Researcher ;
+    rdfs:label "Leandro von Werra"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:Lewis_Tunstall a :Researcher ;
+    rdfs:label "Lewis Tunstall"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:Linear4bit a :AIModel ;
+    rdfs:label "Linear4bit"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:Linear8bitLt a :AIModel ;
+    rdfs:label "Linear8bitLt"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:LinkedIn a :Organization ;
+    rdfs:label "LinkedIn"@en ;
+    :sourceURL "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI .
+
+:Links a :Publication ;
+    rdfs:label "Links"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:Llama a :AIModel ;
+    rdfs:label "Llama"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:Llama_2 a :AIModel ;
+    rdfs:label "Llama 2"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:Llama_2_70B a :AIModel ;
+    rdfs:label "Llama 2 70B"@en,
+        "Llama-2-70B"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:Llama_2_7B a :AIModel ;
+    rdfs:label "Llama 2 7B"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:Llama_2_Chat a :AIModel ;
+    rdfs:label "Llama 2-Chat"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:Louis a :Researcher ;
+    rdfs:label "Louis"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:MIT a :Organization ;
+    rdfs:label "MIT"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:MT_Bench a :AIModel ;
+    rdfs:label "MT Bench"@en,
+        "MT-Bench"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:MacGlashan a :Researcher ;
+    rdfs:label "MacGlashan"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Machine_Learnings a :Organization ;
+    rdfs:label "Machine Learning’s"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:Mad_Men a :Publication ;
+    rdfs:label "Mad Men"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:Making_LLMs a :Publication ;
+    rdfs:label "Making LLMs"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:March_2020 rdfs:label "March 2020"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:Megatron a :Organization ;
+    rdfs:label "Megatron"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:Megatron_Turing a :AIModel ;
+    rdfs:label "Megatron-Turing"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:Meltdown a :Benchmark ;
+    rdfs:label "Meltdown"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:Menick a :Researcher ;
+    rdfs:label "Menick"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Meta a :Organization ;
+    rdfs:label "Meta"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:Meta_Llama_2 a :AIModel ;
+    rdfs:label "Meta Llama 2"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:Microsoft a :Organization ;
+    rdfs:label "Microsoft"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI ;
+    :use "hundreds"@en .
+
+:Mishig a :Researcher ;
+    rdfs:label "Mishig"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Mistral_7B a :AIModel ;
+    rdfs:label "Mistral 7B"@en,
+        "Mistral 7B."@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:Mixtral a :AIModel ;
+    rdfs:label "Mixtral"@en ;
+    :require "90GB"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:Mixtral_45_8e a :AIModel ;
+    rdfs:label "Mixtral-45-8e"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:Mixtral_8x7b a :AIModel ;
+    rdfs:label "Mixtral 8x7b"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:Mixtral_Instruct a :AIModel ;
+    rdfs:label "Mixtral Instruct"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:Mixtral_instruct a :AIModel ;
+    rdfs:label "Mixtral instruct"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:Mixture_of_Experts_Explained a :Publication ;
+    rdfs:label "Mixture of Experts Explained"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:Morgan a :Researcher ;
+    rdfs:label "Morgan"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:MosaicML a :Organization ;
+    rdfs:label "MosaicML"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:MultiPL_E a :AIModel ;
+    rdfs:label "MultiPL-E"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:Málaga a :Organization ;
+    rdfs:label "Málaga"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:NLG_530B a :AIModel ;
+    rdfs:label "NLG 530B"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:NVIDIA a :Organization ;
+    rdfs:label "NVIDIA"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI,
+        "https://huggingface.co/blog/large-language-models"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:Nathan a :Researcher ;
+    rdfs:label "Nathan"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Natural_Language_Processing_with_Transformers a :Publication ;
+    rdfs:label "Natural Language Processing with Transformers"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:New_Jersey a :Organization ;
+    rdfs:label "New Jersey"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:New_York_Times a :Organization ;
+    rdfs:label "New York Times"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:Nguyen a :Researcher ;
+    rdfs:label "Nguyen"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:November_2023 rdfs:label "November 2023"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:November_of_2020 rdfs:label "November of 2020"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:Nuremberg a :Organization ;
+    rdfs:label "Nuremberg"@en ;
+    :sourceURL "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI .
+
+:Nvidia a :Organization ;
+    rdfs:label "Nvidia"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:Olivier a :Researcher ;
+    rdfs:label "Olivier"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:OpenAI a :Organization ;
+    rdfs:label "OpenAI"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/rlhf"^^xsd:anyURI,
+        "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:OpenAI_Alignment_Team a :Organization ;
+    rdfs:label "OpenAI Alignment Team"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:OpenAssistant a :AIModel ;
+    rdfs:label "OpenAssistant"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:OpenRAIL a :Organization ;
+    rdfs:label "OpenRAIL"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:Open_Telemetry a :AIModel ;
+    rdfs:label "Open Telemetry"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:Optimum a :AIModel ;
+    rdfs:label "Optimum"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:PaLM a :AIModel ;
+    rdfs:label "PaLM"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:Paul a :Researcher ;
+    rdfs:label "Paul"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:Peter_Stone a :Researcher ;
+    rdfs:label "Peter Stone"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Phi_2 a :AIModel ;
+    rdfs:label "Phi 2"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Prometheus a :AIModel ;
+    rdfs:label "Prometheus"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:Proprietary a :Organization ;
+    rdfs:label "Proprietary"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:PyTorch a :AIModel ;
+    rdfs:label "PyTorch"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI,
+        "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Python a :AIModel ;
+    rdfs:label "Python"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI,
+        "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:QLoRA a :AIModel,
+        :Organization ;
+    rdfs:label "QLoRA"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:RL4LMs a :AIModel ;
+    rdfs:label "RL4LMs"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:RLHF a :Organization ;
+    rdfs:label "RLHF"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Ramamurthy a :Researcher ;
+    rdfs:label "Ramamurthy"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Ramona a :Researcher ;
+    rdfs:label "Ramona"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:Ranzato a :Researcher ;
+    rdfs:label "Ranzato"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Reddit a :Organization ;
+    rdfs:label "Reddit"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:RefinedWeb a :AIModel ;
+    rdfs:label "RefinedWeb"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:ResearchOrganization a owl:Class ;
+    rdfs:label "Research Organization" ;
+    rdfs:comment "An organization primarily focused on research." ;
+    rdfs:subClassOf :Organization .
+
+:Robert_Kirk a :AIModel ;
+    rdfs:label "Robert Kirk"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:SFTTrainer a :AIModel ;
+    rdfs:label "SFTTrainer"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:SWAG a :Organization ;
+    rdfs:label "SWAG"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:SageMaker a :AIModel ;
+    rdfs:label "SageMaker"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:Sanchit a :Researcher ;
+    rdfs:label "Sanchit"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Sentence_Transformers a :AIModel ;
+    rdfs:label "Sentence-Transformers"@en ;
+    :sourceURL "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI .
+
+:ServiceNow a :Organization ;
+    rdfs:label "ServiceNow"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:Simon a :Researcher ;
+    rdfs:label "Simon"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Sokolov a :Researcher ;
+    rdfs:label "Sokolov"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Spain a :Organization ;
+    rdfs:label "Spain"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Sparrow a :AIModel ;
+    rdfs:label "Sparrow"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Spectre a :Benchmark ;
+    rdfs:label "Spectre"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:SqueezeNet a :AIModel ;
+    rdfs:label "SqueezeNet"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:StarCoder a :AIModel ;
+    rdfs:label "StarCoder"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:StarCoderBase a :AIModel ;
+    rdfs:label "StarCoderBase"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:StarPii a :AIModel ;
+    rdfs:label "StarPii"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:Stas_Bekman a :Researcher ;
+    rdfs:label "Stas Bekman"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Stiennon a :Researcher ;
+    rdfs:label "Stiennon"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Stone a :Researcher ;
+    rdfs:label "Stone"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Suhr a :Researcher ;
+    rdfs:label "Suhr"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Swift a :AIModel ;
+    rdfs:label "Swift"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:T4 a :AIModel ;
+    rdfs:label "T4"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:TII a :Organization ;
+    rdfs:label "TII"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:TPU a :AIModel ;
+    rdfs:label "TPU"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:TPUs a :AIModel ;
+    rdfs:label "TPUs"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:TRL a :AIModel ;
+    rdfs:label "TRL"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:TRLX a :AIModel ;
+    rdfs:label "TRLX"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:TechCompany a owl:Class ;
+    rdfs:label "Tech Company" ;
+    rdfs:comment "A technology company." ;
+    rdfs:subClassOf :Organization .
+
+:Technique a owl:Class ;
+    rdfs:label "Technique" ;
+    rdfs:comment "A machine learning technique or method." .
+
+:TensorFlow a :AIModel ;
+    rdfs:label "TensorFlow"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Tensor_Processing_Units a :AIModel ;
+    rdfs:label "Tensor Processing Units"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:Tensorflow a :AIModel ;
+    rdfs:label "Tensorflow"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:Text_Generation_Inference a :AIModel ;
+    rdfs:label "Text Generation Inference"@en ;
+    :power :Gemma ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:TheBloke a :AIModel,
+        :Organization ;
+    rdfs:label "TheBloke"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:TheStack a :AIModel ;
+    rdfs:label "TheStack"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:The_Mixtral_MoE a :AIModel ;
+    rdfs:label "The Mixtral MoE"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:The_Sopranos a :Publication ;
+    rdfs:label "The Sopranos"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:The_Stack a :Organization ;
+    rdfs:label "The Stack"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:The_Wire a :Publication ;
+    rdfs:label "The Wire"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:Thomas_Wolf a :Researcher ;
+    rdfs:label "Thomas Wolf"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI,
+        "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:Today rdfs:label "Today"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Toloka a :Organization ;
+    rdfs:label "Toloka"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:Tony_Soprano a :Researcher ;
+    rdfs:label "Tony Soprano"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:Touvron a :Researcher ;
+    rdfs:label "Touvron"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Train_Google_Cloud a :Organization ;
+    rdfs:label "Train -> Google Cloud"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Training_a_Helpful_and_Harmless_Assistant a :Publication ;
+    rdfs:label "Training a Helpful and Harmless Assistant"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Transformer a :AIModel ;
+    rdfs:label "Transformer"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:Transformers a :AIModel,
+        :Publication ;
+    rdfs:label "Transformers"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI,
+        "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI,
+        "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:Tuesday_13_December_2022 rdfs:label "Tuesday 13 December 2022"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Twitter a :Organization ;
+    rdfs:label "Twitter"@en ;
+    :sourceURL "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI .
+
+:VSCode a :AIModel ;
+    rdfs:label "VSCode"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:Valencia a :Organization ;
+    rdfs:label "Valencia"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Vertex a :Organization ;
+    rdfs:label "Vertex"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Vertex_AI a :AIModel ;
+    rdfs:label "Vertex AI"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Victor a :Researcher ;
+    rdfs:label "Victor"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Warnell a :Researcher ;
+    rdfs:label "Warnell"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Wikipedia a :Organization ;
+    rdfs:label "Wikipedia"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:Winterfell a :Benchmark ;
+    rdfs:label "Winterfell"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:Wirth a :Researcher ;
+    rdfs:label "Wirth"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Yoav_Artzi a :Researcher ;
+    rdfs:label "Yoav Artzi"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:Younes a :Researcher ;
+    rdfs:label "Younes"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Zieglar a :Researcher ;
+    rdfs:label "Zieglar"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:a_Tech_Assistant_Prompt a :AIModel ;
+    rdfs:label "a Tech Assistant Prompt"@en ;
+    :sourceURL "https://huggingface.co/blog/starcoder"^^xsd:anyURI .
+
+:affiliatedWith a owl:ObjectProperty ;
+    rdfs:label "affiliated with" ;
+    rdfs:comment "The organization a researcher is affiliated with." ;
+    rdfs:domain :Researcher ;
+    rdfs:range :Organization .
+
+:almost_every_single_day rdfs:label "almost every single day"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:an_M1_MacBook_Pro a :AIModel ;
+    rdfs:label "an M1 MacBook Pro"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:and a :AIModel ;
+    rdfs:label "and"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:authoredBy a owl:ObjectProperty ;
+    rdfs:label "authored by" ;
+    rdfs:comment "The researcher who authored a publication." ;
+    rdfs:domain :Publication ;
+    rdfs:range :Researcher .
+
+:basedOn a owl:ObjectProperty ;
+    rdfs:label "based on" ;
+    rdfs:comment "A model that derives from another model." ;
+    rdfs:domain :AIModel ;
+    rdfs:range :AIModel .
+
+:bfloat16 a :AIModel ;
+    rdfs:label "bfloat16"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:bitsandbytes a :AIModel ;
+    rdfs:label "bitsandbytes"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:confidence a owl:DatatypeProperty ;
+    rdfs:label "alignment confidence" ;
+    rdfs:comment "Confidence score for an entity alignment (0.0–1.0)." ;
+    rdfs:range xsd:decimal .
+
+:daily rdfs:label "daily"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:developedBy a owl:ObjectProperty ;
+    rdfs:label "developed by" ;
+    rdfs:comment "The organization that developed an AI model." ;
+    rdfs:domain :AIModel ;
+    rdfs:range :Organization .
+
+:docker a :AIModel ;
+    rdfs:label "docker"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:evaluatedOn a owl:ObjectProperty ;
+    rdfs:label "evaluated on" ;
+    rdfs:comment "Benchmark used to evaluate a model." ;
+    rdfs:domain :AIModel ;
+    rdfs:range :Benchmark .
+
+:every_year rdfs:label "every year"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:float16 a :AIModel ;
+    rdfs:label "float16"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:fp16 a :AIModel ;
+    rdfs:label "fp16"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:fp4 a :AIModel ;
+    rdfs:label "fp4"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:gemma_7b_it a :AIModel ;
+    rdfs:label "gemma-7b-it"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:huggingface_cli a :Organization ;
+    rdfs:label "huggingface-cli"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:int8 a :AIModel ;
+    rdfs:label "int8"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:just_a_few_days rdfs:label "just a few days"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:last_Tuesday rdfs:label "last Tuesday"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:millions_of_years rdfs:label "millions of years"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:mpt_7b a :AIModel ;
+    rdfs:label "mpt-7b"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:nightly rdfs:label "nightly"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:only_a_few_decades_old rdfs:label "only a few decades old"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:parameterCount a owl:DatatypeProperty ;
+    rdfs:label "parameter count" ;
+    rdfs:comment "Number of parameters in the model (e.g. '7B', '70B')." ;
+    rdfs:domain :AIModel ;
+    rdfs:range xsd:string .
+
+:pipeline a :AIModel ;
+    rdfs:label "pipeline"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:power a owl:ObjectProperty ;
+    rdfs:label "power"@en .
+
+:qlora a :Organization ;
+    rdfs:label "qlora"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:release a :AIModel ;
+    rdfs:label "release"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:releaseDate a owl:DatatypeProperty ;
+    rdfs:label "release date" ;
+    rdfs:comment "Year an AI model was released." ;
+    rdfs:domain :AIModel ;
+    rdfs:range xsd:gYear .
+
+:require a owl:ObjectProperty ;
+    rdfs:label "require"@en .
+
+:requires a owl:ObjectProperty ;
+    rdfs:label "requires" ;
+    rdfs:comment "General dependency relationship." .
+
+:sourceURL a owl:DatatypeProperty ;
+    rdfs:label "source URL" ;
+    rdfs:comment "URL of the web source where this entity was mentioned." ;
+    rdfs:range xsd:anyURI .
+
+:the a :AIModel ;
+    rdfs:label "the"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:the_13B_Llama_2_Model a :AIModel ;
+    rdfs:label "the 13B Llama 2 Model"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:the_1960s rdfs:label "the 1960s"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:the_Big_Falcon_Model a :AIModel ;
+    rdfs:label "the Big Falcon Model"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:the_Falcon_7b a :AIModel ;
+    rdfs:label "the Falcon-7b"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:the_Google_Cloud_Console a :Organization ;
+    rdfs:label "the Google Cloud Console"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:the_Google_Team a :Organization ;
+    rdfs:label "the Google Team"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:the_Hugging_Face_Hub a :Organization ;
+    rdfs:label "the Hugging Face Hub"@en ;
+    :sourceURL "https://huggingface.co/blog/bert-101"^^xsd:anyURI .
+
+:the_Inference_Widget a :AIModel ;
+    rdfs:label "the Inference Widget"@en ;
+    :sourceURL "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI .
+
+:the_LLM_Leaderboard a :AIModel ;
+    rdfs:label "the LLM Leaderboard"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:the_University_of_Massachusetts a :Organization ;
+    rdfs:label "the University of Massachusetts"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:the_Vertex_AI_Model_Garden a :AIModel ;
+    rdfs:label "the Vertex AI Model Garden"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:the_coming_days rdfs:label "the coming days"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:the_incoming_days rdfs:label "the incoming days"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:the_last_few_years rdfs:label "the last few years"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:the_lmsys_Arena a :AIModel ;
+    rdfs:label "the lmsys Arena"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:the_past_few_years rdfs:label "the past few years"@en ;
+    :sourceURL "https://huggingface.co/blog/rlhf"^^xsd:anyURI .
+
+:today rdfs:label "today"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI,
+        "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI,
+        "https://huggingface.co/blog/llama2"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:torch a :AIModel,
+        :Researcher ;
+    rdfs:label "torch"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:trainedOn a owl:ObjectProperty ;
+    rdfs:label "trained on" ;
+    rdfs:comment "Dataset used to train a model." ;
+    rdfs:domain :AIModel ;
+    rdfs:range :Dataset .
+
+:transformers a :AIModel,
+        :Organization ;
+    rdfs:label "transformers"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI,
+        "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:trl a :AIModel ;
+    rdfs:label "trl"@en ;
+    :sourceURL "https://huggingface.co/blog/llama2"^^xsd:anyURI .
+
+:two_months rdfs:label "two months"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:use a owl:ObjectProperty ;
+    rdfs:label "use"@en .
+
+:uses a owl:ObjectProperty ;
+    rdfs:label "uses" ;
+    rdfs:comment "General 'uses' relationship between resources." .
+
+:v082 rdfs:label "v0.8.2"@en ;
+    :sourceURL "https://huggingface.co/blog/falcon"^^xsd:anyURI .
+
+:weeks rdfs:label "weeks"@en ;
+    :sourceURL "https://huggingface.co/blog/mixtral"^^xsd:anyURI .
+
+:winter rdfs:label "winter"@en ;
+    :sourceURL "https://huggingface.co/blog/large-language-models"^^xsd:anyURI .
+
+:Gemma a :AIModel ;
+    rdfs:label "Gemma"@en ;
+    :sourceURL "https://huggingface.co/blog/gemma"^^xsd:anyURI .
+
+:Dataset a owl:Class ;
+    rdfs:label "Dataset" ;
+    rdfs:comment "A dataset used for training or evaluating AI models." .
+
+:Benchmark a owl:Class ;
+    rdfs:label "Benchmark" ;
+    rdfs:comment "A standardized evaluation benchmark." ;
+    rdfs:subClassOf :Dataset .
+
+:Publication a owl:Class ;
+    rdfs:label "Publication" ;
+    rdfs:comment "A research paper or technical report." .
+
+:Researcher a owl:Class ;
+    rdfs:label "Researcher" ;
+    rdfs:comment "A person who conducts research." .
+
+:Organization a :Organization,
+        owl:Class ;
+    rdfs:label "Organization",
+        "Organization"@en ;
+    :sourceURL "https://huggingface.co/blog/inference-endpoints-llm"^^xsd:anyURI ;
+    rdfs:comment "A company, research institution, or other organization." .
+
+:AIModel a owl:Class ;
+    rdfs:label "AI Model" ;
+    rdfs:comment "A machine learning model, including language models, vision models, etc." .
+
