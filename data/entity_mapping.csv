@@ -1,0 +1,370 @@
+private_entity,label,external_uri,confidence,source
+http://semanticweb.esilv.fr/aikg/13B,13B,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/16,16,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/175B_LM,175B LM,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/1953,1953,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/2008,2008,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/2011,2011,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/2015,2015,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/2016,2016,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/2017,2017,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/2018,2018,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/2019,2019,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/2020,2020,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/2021,2021,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/2022,2022,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/2023,2023,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/2B,2B,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/3090,3090,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/4090,4090,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/40B,40B,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/40b,40b,http://www.wikidata.org/entity/Q4067,0.75,api
+http://semanticweb.esilv.fr/aikg/431,4.31,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/436,4.36,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/4_days,4 days,http://www.wikidata.org/entity/Q16524346,1.0,api
+http://semanticweb.esilv.fr/aikg/6B,6B,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/7B,7B,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/80,80,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/A10,A10,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/A100,A100,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/A100s,A100s,NEW,0.179,low_confidence
+http://semanticweb.esilv.fr/aikg/A6000,A6000,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/AMC,AMC,http://www.wikidata.org/entity/Q294660,1.0,api
+http://semanticweb.esilv.fr/aikg/API,API,http://www.wikidata.org/entity/Q756082,0.667,api
+http://semanticweb.esilv.fr/aikg/AWS,AWS,NEW,0.286,low_confidence
+http://semanticweb.esilv.fr/aikg/A_month,A month,NEW,0.583,low_confidence
+http://semanticweb.esilv.fr/aikg/Alex,Alex,http://www.wikidata.org/entity/Q13258171,1.0,api
+http://semanticweb.esilv.fr/aikg/AlexNet,AlexNet,http://www.wikidata.org/entity/Q28325009,1.0,api
+http://semanticweb.esilv.fr/aikg/AlpacaEval,AlpacaEval,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Amazon,Amazon,http://www.wikidata.org/entity/Q3884,0.97,manual
+http://semanticweb.esilv.fr/aikg/Amazon_Mechanical_Turk,Amazon Mechanical Turk,http://www.wikidata.org/entity/Q733115,1.0,api
+http://semanticweb.esilv.fr/aikg/Ammanabrolu,Ammanabrolu,NEW,0.579,low_confidence
+http://semanticweb.esilv.fr/aikg/Anthropic,Anthropic,http://www.wikidata.org/entity/Q107820136,0.99,manual
+http://semanticweb.esilv.fr/aikg/Apache_20,Apache 2.0,http://www.wikidata.org/entity/Q13785927,0.691,api
+http://semanticweb.esilv.fr/aikg/Arthur,Arthur,http://www.wikidata.org/entity/Q1778168,1.0,api
+http://semanticweb.esilv.fr/aikg/Arthur_Zucker,Arthur Zucker,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Artzi,Artzi,http://www.wikidata.org/entity/Q66472473,1.0,api
+http://semanticweb.esilv.fr/aikg/Atari,Atari,http://www.wikidata.org/entity/Q207922,1.0,api
+http://semanticweb.esilv.fr/aikg/Attention_Is_All_You_Need_paper,Attention Is All You Need paper,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/AutoTokenizer,AutoTokenizer,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Azure,Azure,http://www.wikidata.org/entity/Q1785501,1.0,api
+http://semanticweb.esilv.fr/aikg/BART,BART,http://www.wikidata.org/entity/Q13435470,1.0,api
+http://semanticweb.esilv.fr/aikg/BERT,BERT,http://www.wikidata.org/entity/Q56565539,0.99,manual
+http://semanticweb.esilv.fr/aikg/BERT_Large,BERT-Large,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/BERTbase,BERTbase,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/BERTlarge,BERTlarge,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Bahdanau,Bahdanau,http://www.wikidata.org/entity/Q28380423,0.875,api
+http://semanticweb.esilv.fr/aikg/Baltimore,Baltimore,http://www.wikidata.org/entity/Q5092,1.0,api
+http://semanticweb.esilv.fr/aikg/Band_of_Brothers,Band of Brothers,http://www.wikidata.org/entity/Q48965859,1.0,api
+http://semanticweb.esilv.fr/aikg/BigCode,BigCode,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/BooksCorpus,BooksCorpus,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Breaking_Bad,Breaking Bad,http://www.wikidata.org/entity/Q1079,1.0,api
+http://semanticweb.esilv.fr/aikg/CarperAI,CarperAI,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Castricato,Castricato,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/ChatGPT,ChatGPT,http://www.wikidata.org/entity/Q115564437,1.0,api
+http://semanticweb.esilv.fr/aikg/Christiano,Christiano,http://www.wikidata.org/entity/Q40332298,1.0,api
+http://semanticweb.esilv.fr/aikg/Cloze,Cloze,http://www.wikidata.org/entity/Q83293627,0.909,api
+http://semanticweb.esilv.fr/aikg/Clémentine_Fourrier,Clémentine Fourrier,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/CodeGen,CodeGen,http://www.wikidata.org/entity/Q120261300,1.0,api
+http://semanticweb.esilv.fr/aikg/CodeGen_16B_Mono,CodeGen-16B-Mono,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Codex,Codex,http://www.wikidata.org/entity/Q213924,1.0,api
+http://semanticweb.esilv.fr/aikg/Cohen,Cohen,http://www.wikidata.org/entity/Q1158586,1.0,api
+http://semanticweb.esilv.fr/aikg/Colab,Colab,http://www.wikidata.org/entity/Q124064224,1.0,api
+http://semanticweb.esilv.fr/aikg/CommonCrawl,CommonCrawl,http://www.wikidata.org/entity/Q12055316,0.957,api
+http://semanticweb.esilv.fr/aikg/Computer_Vision,Computer Vision,http://www.wikidata.org/entity/Q844240,1.0,api
+http://semanticweb.esilv.fr/aikg/Copilot,Copilot,http://www.wikidata.org/entity/Q107214994,1.0,api
+http://semanticweb.esilv.fr/aikg/Core_ML,Core ML,NEW,0.378,low_confidence
+http://semanticweb.esilv.fr/aikg/DGX,DGX,NEW,0.514,low_confidence
+http://semanticweb.esilv.fr/aikg/DGX_A100,DGX A100,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/DS_1000,DS-1000,NEW,0.159,low_confidence
+http://semanticweb.esilv.fr/aikg/David,David,http://www.wikidata.org/entity/Q18057751,1.0,api
+http://semanticweb.esilv.fr/aikg/DeepMind,DeepMind,http://www.wikidata.org/entity/Q15733006,0.99,manual
+http://semanticweb.esilv.fr/aikg/DistilBART,DistilBART,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/DistilBERT,DistilBERT,http://www.wikidata.org/entity/Q107032059,1.0,api
+http://semanticweb.esilv.fr/aikg/Docker,Docker,http://www.wikidata.org/entity/Q15206305,1.0,api
+http://semanticweb.esilv.fr/aikg/EQ_Bench,EQ Bench,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Earthorg,Earth.org,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Elo,Elo,http://www.wikidata.org/entity/Q27891344,1.0,api
+http://semanticweb.esilv.fr/aikg/Endpoint,Endpoint,http://www.wikidata.org/entity/Q5376583,1.0,api
+http://semanticweb.esilv.fr/aikg/Evaluation,Evaluation,http://www.wikidata.org/entity/Q1379672,1.0,api
+http://semanticweb.esilv.fr/aikg/Facebook,Facebook,http://www.wikidata.org/entity/Q355,1.0,api
+http://semanticweb.esilv.fr/aikg/Falcon,Falcon,http://www.wikidata.org/entity/Q120224088,0.96,manual
+http://semanticweb.esilv.fr/aikg/Falcon_40B,Falcon-40B,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Falcon_40B_Instruct,Falcon-40B-Instruct,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Falcon_7B,Falcon-7B,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Falcon_7B_Instruct,Falcon-7B-Instruct,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Falcon_7b,Falcon 7b,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Few_months,Few months,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Flash_Attention,Flash Attention,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Flash_Attention_2_utilities,"Flash Attention 2
+- utilities",NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Flax,Flax,http://www.wikidata.org/entity/Q5458244,1.0,api
+http://semanticweb.esilv.fr/aikg/G,G,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/GKE,GKE,http://www.wikidata.org/entity/Q123031364,1.0,api
+http://semanticweb.esilv.fr/aikg/GPT35,GPT3.5,http://www.wikidata.org/entity/Q126884944,0.782,api
+http://semanticweb.esilv.fr/aikg/GPTQ,GPTQ,http://www.wikidata.org/entity/Q117315350,1.0,api
+http://semanticweb.esilv.fr/aikg/GPT_4_Turbo,GPT-4 Turbo,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/GPUs,GPUs,http://www.wikidata.org/entity/Q107382355,0.727,api
+http://semanticweb.esilv.fr/aikg/Ganguli,Ganguli,http://www.wikidata.org/entity/Q37003922,1.0,api
+http://semanticweb.esilv.fr/aikg/Gao,Gao,http://www.wikidata.org/entity/Q713706,1.0,api
+http://semanticweb.esilv.fr/aikg/Gemini,Gemini,http://www.wikidata.org/entity/Q8923,1.0,api
+http://semanticweb.esilv.fr/aikg/Gemma_2B,Gemma 2B,http://www.wikidata.org/entity/Q124670555,1.0,api
+http://semanticweb.esilv.fr/aikg/Gemma_Instruct,Gemma Instruct,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Germany,Germany,http://www.wikidata.org/entity/Q183,1.0,api
+http://semanticweb.esilv.fr/aikg/Git,Git,http://www.wikidata.org/entity/Q186055,1.0,api
+http://semanticweb.esilv.fr/aikg/GitHub,GitHub,http://www.wikidata.org/entity/Q364,1.0,api
+http://semanticweb.esilv.fr/aikg/Glaese,Glaese,http://www.wikidata.org/entity/Q36980600,0.923,api
+http://semanticweb.esilv.fr/aikg/Google,Google,http://www.wikidata.org/entity/Q95,0.99,manual
+http://semanticweb.esilv.fr/aikg/Google_AI_Language,Google AI Language,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Google_Books,Google Books,http://www.wikidata.org/entity/Q206033,1.0,api
+http://semanticweb.esilv.fr/aikg/Google_Cloud,Google Cloud,http://www.wikidata.org/entity/Q125850907,1.0,api
+http://semanticweb.esilv.fr/aikg/Google_Colab,Google Colab,http://www.wikidata.org/entity/Q126084995,1.0,api
+http://semanticweb.esilv.fr/aikg/Google_Kubernetes_Engine,Google Kubernetes Engine,http://www.wikidata.org/entity/Q59848767,1.0,api
+http://semanticweb.esilv.fr/aikg/Google_Translate,Google Translate,http://www.wikidata.org/entity/Q135622,1.0,api
+http://semanticweb.esilv.fr/aikg/Gopher,Gopher,http://www.wikidata.org/entity/Q5584264,1.0,api
+http://semanticweb.esilv.fr/aikg/Graphcore,Graphcore,http://www.wikidata.org/entity/Q38251361,1.0,api
+http://semanticweb.esilv.fr/aikg/Guanaco,Guanaco,http://www.wikidata.org/entity/Q172886,1.0,api
+http://semanticweb.esilv.fr/aikg/HBO,HBO,http://www.wikidata.org/entity/Q23633,1.0,api
+http://semanticweb.esilv.fr/aikg/Habana,Habana,http://www.wikidata.org/entity/Q25087782,1.0,api
+http://semanticweb.esilv.fr/aikg/Harm_de_Vries,Harm de Vries,http://www.wikidata.org/entity/Q110006229,1.0,api
+http://semanticweb.esilv.fr/aikg/Havrilla,Havrilla,http://www.wikidata.org/entity/Q24088119,1.0,api
+http://semanticweb.esilv.fr/aikg/Hub,Hub,http://www.wikidata.org/entity/Q25126013,1.0,api
+http://semanticweb.esilv.fr/aikg/HuggingChat,HuggingChat,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Hugging_Chat,Hugging Chat,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Hugging_Face,Hugging Face,http://www.wikidata.org/entity/Q63155490,0.98,manual
+http://semanticweb.esilv.fr/aikg/Hugging_Face_Blog,Hugging Face Blog,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Hugging_Face_Chat,Hugging Face Chat,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Hugging_Face_Inference_Endpoints,Hugging Face Inference Endpoints,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Hugging_Faces,Hugging Face's,http://www.wikidata.org/entity/Q118182434,0.867,api
+http://semanticweb.esilv.fr/aikg/HumanEval,HumanEval,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Igor_Kotenkov,Igor Kotenkov,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Illustrating_Reinforcement_Learning_from_Human_Feedback,Illustrating Reinforcement Learning from Human Feedback,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Inference_Endpoints,Inference Endpoints,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Inferentia,Inferentia,http://www.wikidata.org/entity/Q3332616,0.952,api
+http://semanticweb.esilv.fr/aikg/Infinity,Infinity,http://www.wikidata.org/entity/Q11838802,1.0,api
+http://semanticweb.esilv.fr/aikg/Instruct,Instruct,NEW,0.432,low_confidence
+http://semanticweb.esilv.fr/aikg/InstructGPT,InstructGPT,http://www.wikidata.org/entity/Q117449859,1.0,api
+http://semanticweb.esilv.fr/aikg/JAX_Flax,JAX / Flax,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/John_Schulman,John Schulman,http://www.wikidata.org/entity/Q103236782,1.0,api
+http://semanticweb.esilv.fr/aikg/Jupyter,Jupyter,http://www.wikidata.org/entity/Q107381039,1.0,api
+http://semanticweb.esilv.fr/aikg/KL,KL,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/Khanh_X_Nguyen,Khanh X. Nguyen,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Knox,Knox,http://www.wikidata.org/entity/Q16871486,1.0,api
+http://semanticweb.esilv.fr/aikg/Kojima,Kojima,http://www.wikidata.org/entity/Q79605093,1.0,api
+http://semanticweb.esilv.fr/aikg/LLM,LLM,NEW,0.411,low_confidence
+http://semanticweb.esilv.fr/aikg/LLMs,LLMs,http://www.wikidata.org/entity/Q133958690,0.667,api
+http://semanticweb.esilv.fr/aikg/LLaMA,LLaMA,http://www.wikidata.org/entity/Q118831653,0.99,manual
+http://semanticweb.esilv.fr/aikg/LLaMA_33B,LLaMA-33B,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/LLaMa_65B,LLaMa 65B,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/LLama_2,LLama 2,http://www.wikidata.org/entity/Q120847029,1.0,api
+http://semanticweb.esilv.fr/aikg/LM,LM,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/LaMDA,LaMDA,http://www.wikidata.org/entity/Q112624345,1.0,api
+http://semanticweb.esilv.fr/aikg/Lambert,Lambert,http://www.wikidata.org/entity/Q19776313,1.0,api
+http://semanticweb.esilv.fr/aikg/LanguageModel,Language Model,http://www.wikidata.org/entity/Q3621696,1.0,api
+http://semanticweb.esilv.fr/aikg/Leandro,Leandro,http://www.wikidata.org/entity/Q5972176,1.0,api
+http://semanticweb.esilv.fr/aikg/Leandro_von_Werra,Leandro von Werra,http://www.wikidata.org/entity/Q124640717,1.0,api
+http://semanticweb.esilv.fr/aikg/Lewis_Tunstall,Lewis Tunstall,http://www.wikidata.org/entity/Q124640167,1.0,api
+http://semanticweb.esilv.fr/aikg/Linear4bit,Linear4bit,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Linear8bitLt,Linear8bitLt,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/LinkedIn,LinkedIn,http://www.wikidata.org/entity/Q213660,1.0,api
+http://semanticweb.esilv.fr/aikg/Links,Links,http://www.wikidata.org/entity/Q36978172,1.0,api
+http://semanticweb.esilv.fr/aikg/Llama,Llama,http://www.wikidata.org/entity/Q37126053,1.0,api
+http://semanticweb.esilv.fr/aikg/Llama_2,Llama 2,http://www.wikidata.org/entity/Q120847029,1.0,api
+http://semanticweb.esilv.fr/aikg/Llama_2_70B,Llama-2-70B,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Llama_2_7B,Llama 2 7B,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Llama_2_Chat,Llama 2-Chat,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Louis,Louis,http://www.wikidata.org/entity/Q2897866,1.0,api
+http://semanticweb.esilv.fr/aikg/MIT,MIT,http://www.wikidata.org/entity/Q49108,0.98,manual
+http://semanticweb.esilv.fr/aikg/MT_Bench,MT-Bench,NEW,0.15,low_confidence
+http://semanticweb.esilv.fr/aikg/MacGlashan,MacGlashan,http://www.wikidata.org/entity/Q62070566,1.0,api
+http://semanticweb.esilv.fr/aikg/Machine_Learnings,Machine Learning’s,http://www.wikidata.org/entity/Q121463874,0.739,api
+http://semanticweb.esilv.fr/aikg/Mad_Men,Mad Men,http://www.wikidata.org/entity/Q223977,1.0,api
+http://semanticweb.esilv.fr/aikg/Making_LLMs,Making LLMs,NEW,0.247,low_confidence
+http://semanticweb.esilv.fr/aikg/March_2020,March 2020,http://www.wikidata.org/entity/Q55018431,1.0,api
+http://semanticweb.esilv.fr/aikg/Megatron,Megatron,http://www.wikidata.org/entity/Q828473,1.0,api
+http://semanticweb.esilv.fr/aikg/Megatron_Turing,Megatron-Turing,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Meltdown,Meltdown,http://www.wikidata.org/entity/Q3854309,1.0,api
+http://semanticweb.esilv.fr/aikg/Menick,Menick,NEW,0.5,low_confidence
+http://semanticweb.esilv.fr/aikg/Meta,Meta,http://www.wikidata.org/entity/Q380,0.99,manual
+http://semanticweb.esilv.fr/aikg/Meta_Llama_2,Meta Llama 2,http://www.wikidata.org/entity/Q131939870,0.978,api
+http://semanticweb.esilv.fr/aikg/Microsoft,Microsoft,http://www.wikidata.org/entity/Q2283,0.99,manual
+http://semanticweb.esilv.fr/aikg/Mishig,Mishig,http://www.wikidata.org/entity/Q30950256,0.75,api
+http://semanticweb.esilv.fr/aikg/Mistral_7B,Mistral 7B.,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Mixtral,Mixtral,http://www.wikidata.org/entity/Q126193488,0.887,api
+http://semanticweb.esilv.fr/aikg/Mixtral_45_8e,Mixtral-45-8e,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Mixtral_8x7b,Mixtral 8x7b,http://www.wikidata.org/entity/Q126193488,1.0,api
+http://semanticweb.esilv.fr/aikg/Mixtral_Instruct,Mixtral Instruct,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Mixtral_instruct,Mixtral instruct,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Mixture_of_Experts_Explained,Mixture of Experts Explained,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Morgan,Morgan,http://www.wikidata.org/entity/Q1260128,1.0,api
+http://semanticweb.esilv.fr/aikg/MosaicML,MosaicML,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/MultiPL_E,MultiPL-E,NEW,0.432,low_confidence
+http://semanticweb.esilv.fr/aikg/Málaga,Málaga,http://www.wikidata.org/entity/Q8851,1.0,api
+http://semanticweb.esilv.fr/aikg/NLG_530B,NLG 530B,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/NVIDIA,NVIDIA,http://www.wikidata.org/entity/Q182477,0.99,manual
+http://semanticweb.esilv.fr/aikg/Nathan,Nathan,http://www.wikidata.org/entity/Q11167678,1.0,api
+http://semanticweb.esilv.fr/aikg/Natural_Language_Processing_with_Transformers,Natural Language Processing with Transformers,http://www.wikidata.org/entity/Q133539572,0.841,api
+http://semanticweb.esilv.fr/aikg/New_Jersey,New Jersey,http://www.wikidata.org/entity/Q1408,1.0,api
+http://semanticweb.esilv.fr/aikg/New_York_Times,New York Times,http://www.wikidata.org/entity/Q3875590,1.0,api
+http://semanticweb.esilv.fr/aikg/Nguyen,Nguyen,http://www.wikidata.org/entity/Q37305156,1.0,api
+http://semanticweb.esilv.fr/aikg/November_2023,November 2023,http://www.wikidata.org/entity/Q61312919,1.0,api
+http://semanticweb.esilv.fr/aikg/November_of_2020,November of 2020,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Nuremberg,Nuremberg,http://www.wikidata.org/entity/Q2090,1.0,api
+http://semanticweb.esilv.fr/aikg/Nvidia,Nvidia,http://www.wikidata.org/entity/Q182477,1.0,api
+http://semanticweb.esilv.fr/aikg/Olivier,Olivier,http://www.wikidata.org/entity/Q16280379,1.0,api
+http://semanticweb.esilv.fr/aikg/OpenAI,OpenAI,http://www.wikidata.org/entity/Q21708200,0.99,manual
+http://semanticweb.esilv.fr/aikg/OpenAI_Alignment_Team,OpenAI Alignment Team,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/OpenAssistant,OpenAssistant,http://www.wikidata.org/entity/Q118176939,1.0,api
+http://semanticweb.esilv.fr/aikg/OpenRAIL,OpenRAIL,http://www.wikidata.org/entity/Q56414866,0.889,api
+http://semanticweb.esilv.fr/aikg/Open_Telemetry,Open Telemetry,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Optimum,Optimum,http://www.wikidata.org/entity/Q1186200,1.0,api
+http://semanticweb.esilv.fr/aikg/PaLM,PaLM,http://www.wikidata.org/entity/Q16880920,1.0,api
+http://semanticweb.esilv.fr/aikg/Paul,Paul,http://www.wikidata.org/entity/Q4925623,1.0,api
+http://semanticweb.esilv.fr/aikg/Peter_Stone,Peter Stone,http://www.wikidata.org/entity/Q7177133,1.0,api
+http://semanticweb.esilv.fr/aikg/Phi_2,Phi 2,http://www.wikidata.org/entity/Q124039587,0.95,api
+http://semanticweb.esilv.fr/aikg/Prometheus,Prometheus,http://www.wikidata.org/entity/Q10354546,1.0,api
+http://semanticweb.esilv.fr/aikg/Proprietary,Proprietary,http://www.wikidata.org/entity/Q311310,1.0,api
+http://semanticweb.esilv.fr/aikg/PyTorch,PyTorch,http://www.wikidata.org/entity/Q47509047,1.0,api
+http://semanticweb.esilv.fr/aikg/Python,Python,http://www.wikidata.org/entity/Q28865,1.0,api
+http://semanticweb.esilv.fr/aikg/QLoRA,QLoRA,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/RL4LMs,RL4LMs,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/RLHF,RLHF,NEW,0.174,low_confidence
+http://semanticweb.esilv.fr/aikg/Ramamurthy,Ramamurthy,http://www.wikidata.org/entity/Q7288859,1.0,api
+http://semanticweb.esilv.fr/aikg/Ramona,Ramona,http://www.wikidata.org/entity/Q2130276,1.0,api
+http://semanticweb.esilv.fr/aikg/Ranzato,Ranzato,http://www.wikidata.org/entity/Q99736502,1.0,api
+http://semanticweb.esilv.fr/aikg/Reddit,Reddit,http://www.wikidata.org/entity/Q1136,1.0,api
+http://semanticweb.esilv.fr/aikg/RefinedWeb,RefinedWeb,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/ResearchOrganization,Research Organization,http://www.wikidata.org/entity/Q136410232,1.0,api
+http://semanticweb.esilv.fr/aikg/Robert_Kirk,Robert Kirk,http://www.wikidata.org/entity/Q121360752,1.0,api
+http://semanticweb.esilv.fr/aikg/SFTTrainer,SFTTrainer,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/SWAG,SWAG,http://www.wikidata.org/entity/Q135268623,1.0,api
+http://semanticweb.esilv.fr/aikg/SageMaker,SageMaker,http://www.wikidata.org/entity/Q107382252,1.0,api
+http://semanticweb.esilv.fr/aikg/Sanchit,Sanchit,http://www.wikidata.org/entity/Q16281184,0.933,api
+http://semanticweb.esilv.fr/aikg/Sentence_Transformers,Sentence-Transformers,http://www.wikidata.org/entity/Q120634773,0.952,api
+http://semanticweb.esilv.fr/aikg/ServiceNow,ServiceNow,http://www.wikidata.org/entity/Q7455653,1.0,api
+http://semanticweb.esilv.fr/aikg/Simon,Simon,http://www.wikidata.org/entity/Q4117588,1.0,api
+http://semanticweb.esilv.fr/aikg/Sokolov,Sokolov,http://www.wikidata.org/entity/Q727383,1.0,api
+http://semanticweb.esilv.fr/aikg/Spain,Spain,http://www.wikidata.org/entity/Q29,1.0,api
+http://semanticweb.esilv.fr/aikg/Sparrow,Sparrow,http://www.wikidata.org/entity/Q109828878,1.0,api
+http://semanticweb.esilv.fr/aikg/Spectre,Spectre,http://www.wikidata.org/entity/Q18602670,1.0,api
+http://semanticweb.esilv.fr/aikg/SqueezeNet,SqueezeNet,http://www.wikidata.org/entity/Q55080279,1.0,api
+http://semanticweb.esilv.fr/aikg/StarCoder,StarCoder,NEW,0.383,low_confidence
+http://semanticweb.esilv.fr/aikg/StarCoderBase,StarCoderBase,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/StarPii,StarPii,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Stas_Bekman,Stas Bekman,http://www.wikidata.org/entity/Q131129547,1.0,api
+http://semanticweb.esilv.fr/aikg/Stiennon,Stiennon,http://www.wikidata.org/entity/Q115565433,1.0,api
+http://semanticweb.esilv.fr/aikg/Stone,Stone,http://www.wikidata.org/entity/Q22731,1.0,api
+http://semanticweb.esilv.fr/aikg/Suhr,Suhr,http://www.wikidata.org/entity/Q27672163,1.0,api
+http://semanticweb.esilv.fr/aikg/Swift,Swift,http://www.wikidata.org/entity/Q18331735,1.0,api
+http://semanticweb.esilv.fr/aikg/T4,T4,SKIP,0.0,skipped
+http://semanticweb.esilv.fr/aikg/TII,TII,http://www.wikidata.org/entity/Q2433022,0.857,api
+http://semanticweb.esilv.fr/aikg/TPU,TPU,NEW,0.39,low_confidence
+http://semanticweb.esilv.fr/aikg/TPUs,TPUs,http://www.wikidata.org/entity/Q96655139,1.0,api
+http://semanticweb.esilv.fr/aikg/TRL,TRL,NEW,0.4,low_confidence
+http://semanticweb.esilv.fr/aikg/TRLX,TRLX,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/TechCompany,Tech Company,http://www.wikidata.org/entity/Q18388277,0.95,api
+http://semanticweb.esilv.fr/aikg/Technique,Technique,http://www.wikidata.org/entity/Q2695280,1.0,api
+http://semanticweb.esilv.fr/aikg/TensorFlow,TensorFlow,http://www.wikidata.org/entity/Q21447895,1.0,api
+http://semanticweb.esilv.fr/aikg/Tensor_Processing_Units,Tensor Processing Units,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Tensorflow,Tensorflow,http://www.wikidata.org/entity/Q21447895,1.0,api
+http://semanticweb.esilv.fr/aikg/Text_Generation_Inference,Text Generation Inference,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/TheBloke,TheBloke,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/TheStack,TheStack,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/The_Mixtral_MoE,The Mixtral MoE,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/The_Sopranos,The Sopranos,http://www.wikidata.org/entity/Q23628,1.0,api
+http://semanticweb.esilv.fr/aikg/The_Stack,The Stack,http://www.wikidata.org/entity/Q807899,1.0,api
+http://semanticweb.esilv.fr/aikg/The_Wire,The Wire,http://www.wikidata.org/entity/Q478360,1.0,api
+http://semanticweb.esilv.fr/aikg/Thomas_Wolf,Thomas Wolf,http://www.wikidata.org/entity/Q19722263,1.0,api
+http://semanticweb.esilv.fr/aikg/Today,Today,http://www.wikidata.org/entity/Q3530234,1.0,api
+http://semanticweb.esilv.fr/aikg/Toloka,Toloka,http://www.wikidata.org/entity/Q19949183,1.0,api
+http://semanticweb.esilv.fr/aikg/Tony_Soprano,Tony Soprano,http://www.wikidata.org/entity/Q1049580,1.0,api
+http://semanticweb.esilv.fr/aikg/Touvron,Touvron,http://www.wikidata.org/entity/Q2270036,0.778,api
+http://semanticweb.esilv.fr/aikg/Train_Google_Cloud,Train -> Google Cloud,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Training_a_Helpful_and_Harmless_Assistant,Training a Helpful and Harmless Assistant,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Transformer,Transformer,http://www.wikidata.org/entity/Q11658,1.0,api
+http://semanticweb.esilv.fr/aikg/Transformers,Transformers,http://www.wikidata.org/entity/Q1323565,1.0,api
+http://semanticweb.esilv.fr/aikg/Tuesday_13_December_2022,Tuesday 13 December 2022,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/Twitter,Twitter,http://www.wikidata.org/entity/Q1390577,1.0,api
+http://semanticweb.esilv.fr/aikg/VSCode,VSCode,http://www.wikidata.org/entity/Q123472574,0.8,api
+http://semanticweb.esilv.fr/aikg/Valencia,Valencia,http://www.wikidata.org/entity/Q8818,1.0,api
+http://semanticweb.esilv.fr/aikg/Vertex,Vertex,http://www.wikidata.org/entity/Q26401,1.0,api
+http://semanticweb.esilv.fr/aikg/Vertex_AI,Vertex AI,http://www.wikidata.org/entity/Q59904785,1.0,api
+http://semanticweb.esilv.fr/aikg/Victor,Victor,http://www.wikidata.org/entity/Q539581,1.0,api
+http://semanticweb.esilv.fr/aikg/Warnell,Warnell,http://www.wikidata.org/entity/Q37483503,1.0,api
+http://semanticweb.esilv.fr/aikg/Wikipedia,Wikipedia,http://www.wikidata.org/entity/Q52,0.99,manual
+http://semanticweb.esilv.fr/aikg/Winterfell,Winterfell,http://www.wikidata.org/entity/Q20925302,1.0,api
+http://semanticweb.esilv.fr/aikg/Wirth,Wirth,http://www.wikidata.org/entity/Q65929125,1.0,api
+http://semanticweb.esilv.fr/aikg/Yoav_Artzi,Yoav Artzi,http://www.wikidata.org/entity/Q93953841,1.0,api
+http://semanticweb.esilv.fr/aikg/Younes,Younes,http://www.wikidata.org/entity/Q20000461,1.0,api
+http://semanticweb.esilv.fr/aikg/Zieglar,Zieglar,http://www.wikidata.org/entity/Q37035859,1.0,api
+http://semanticweb.esilv.fr/aikg/a_Tech_Assistant_Prompt,a Tech Assistant Prompt,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/affiliatedWith,affiliated with,http://www.wikidata.org/entity/Q4688925,0.682,api
+http://semanticweb.esilv.fr/aikg/almost_every_single_day,almost every single day,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/an_M1_MacBook_Pro,an M1 MacBook Pro,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/and,and,http://www.wikidata.org/entity/Q18042461,0.667,api
+http://semanticweb.esilv.fr/aikg/authoredBy,authored by,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/basedOn,based on,http://www.wikidata.org/entity/Q30171963,1.0,api
+http://semanticweb.esilv.fr/aikg/bfloat16,bfloat16,http://www.wikidata.org/entity/Q54083815,1.0,api
+http://semanticweb.esilv.fr/aikg/bitsandbytes,bitsandbytes,http://www.wikidata.org/entity/Q120550490,1.0,api
+http://semanticweb.esilv.fr/aikg/confidence,alignment confidence,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/daily,daily,http://www.wikidata.org/entity/Q65256591,1.0,api
+http://semanticweb.esilv.fr/aikg/developedBy,developed by,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/docker,docker,http://www.wikidata.org/entity/Q15206305,1.0,api
+http://semanticweb.esilv.fr/aikg/evaluatedOn,evaluated on,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/every_year,every year,http://www.wikidata.org/entity/Q135032496,0.741,api
+http://semanticweb.esilv.fr/aikg/float16,float16,NEW,0.233,low_confidence
+http://semanticweb.esilv.fr/aikg/fp16,fp16,NEW,0.258,low_confidence
+http://semanticweb.esilv.fr/aikg/fp4,fp4,http://www.wikidata.org/entity/Q131829329,1.0,api
+http://semanticweb.esilv.fr/aikg/gemma_7b_it,gemma-7b-it,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/huggingface_cli,huggingface-cli,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/int8,int8,http://www.wikidata.org/entity/Q18041936,0.889,api
+http://semanticweb.esilv.fr/aikg/just_a_few_days,just a few days,http://www.wikidata.org/entity/Q40396003,0.638,api
+http://semanticweb.esilv.fr/aikg/last_Tuesday,last Tuesday,http://www.wikidata.org/entity/Q952317,1.0,api
+http://semanticweb.esilv.fr/aikg/millions_of_years,millions of years,http://www.wikidata.org/entity/Q14949963,0.723,api
+http://semanticweb.esilv.fr/aikg/mpt_7b,mpt-7b,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/nightly,nightly,http://www.wikidata.org/entity/Q30610576,1.0,api
+http://semanticweb.esilv.fr/aikg/only_a_few_decades_old,only a few decades old,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/parameterCount,parameter count,NEW,0.526,low_confidence
+http://semanticweb.esilv.fr/aikg/pipeline,pipeline,http://www.wikidata.org/entity/Q7197263,1.0,api
+http://semanticweb.esilv.fr/aikg/power,power,http://www.wikidata.org/entity/Q5405444,1.0,api
+http://semanticweb.esilv.fr/aikg/qlora,qlora,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/release,release,http://www.wikidata.org/entity/Q20631656,0.759,api
+http://semanticweb.esilv.fr/aikg/releaseDate,release date,http://www.wikidata.org/entity/Q115668563,1.0,api
+http://semanticweb.esilv.fr/aikg/require,require,NEW,0.56,low_confidence
+http://semanticweb.esilv.fr/aikg/requires,requires,NEW,0.571,low_confidence
+http://semanticweb.esilv.fr/aikg/sourceURL,source URL,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/the,the,http://www.wikidata.org/entity/Q546003,0.6,api
+http://semanticweb.esilv.fr/aikg/the_13B_Llama_2_Model,the 13B Llama 2 Model,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/the_1960s,the 1960s,http://www.wikidata.org/entity/Q135798633,1.0,api
+http://semanticweb.esilv.fr/aikg/the_Big_Falcon_Model,the Big Falcon Model,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/the_Falcon_7b,the Falcon-7b,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/the_Google_Cloud_Console,the Google Cloud Console,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/the_Google_Team,the Google Team,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/the_Hugging_Face_Hub,the Hugging Face Hub,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/the_Inference_Widget,the Inference Widget,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/the_LLM_Leaderboard,the LLM Leaderboard,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/the_University_of_Massachusetts,the University of Massachusetts,NEW,0.574,low_confidence
+http://semanticweb.esilv.fr/aikg/the_Vertex_AI_Model_Garden,the Vertex AI Model Garden,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/the_coming_days,the coming days,http://www.wikidata.org/entity/Q1218790,1.0,api
+http://semanticweb.esilv.fr/aikg/the_incoming_days,the incoming days,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/the_last_few_years,the last few years,http://www.wikidata.org/entity/Q107536241,1.0,api
+http://semanticweb.esilv.fr/aikg/the_lmsys_Arena,the lmsys Arena,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/the_past_few_years,the past few years,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/today,today,http://www.wikidata.org/entity/Q3530234,1.0,api
+http://semanticweb.esilv.fr/aikg/torch,torch,http://www.wikidata.org/entity/Q37573845,1.0,api
+http://semanticweb.esilv.fr/aikg/trainedOn,trained on,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/transformers,transformers,http://www.wikidata.org/entity/Q1323565,1.0,api
+http://semanticweb.esilv.fr/aikg/trl,trl,NEW,0.4,low_confidence
+http://semanticweb.esilv.fr/aikg/two_months,two months,http://www.wikidata.org/entity/Q122353500,1.0,api
+http://semanticweb.esilv.fr/aikg/use,use,http://www.wikidata.org/entity/Q1724915,1.0,api
+http://semanticweb.esilv.fr/aikg/uses,uses,NEW,0.545,low_confidence
+http://semanticweb.esilv.fr/aikg/v082,v0.8.2,NEW,0.0,not_found
+http://semanticweb.esilv.fr/aikg/weeks,weeks,http://www.wikidata.org/entity/Q7979526,1.0,api
+http://semanticweb.esilv.fr/aikg/winter,winter,http://www.wikidata.org/entity/Q1485942,1.0,api
+http://semanticweb.esilv.fr/aikg/Gemma,Gemma,http://www.wikidata.org/entity/Q124082422,0.95,manual
+http://semanticweb.esilv.fr/aikg/Dataset,Dataset,http://www.wikidata.org/entity/Q104427242,1.0,api
+http://semanticweb.esilv.fr/aikg/Benchmark,Benchmark,http://www.wikidata.org/entity/Q1161707,1.0,api
+http://semanticweb.esilv.fr/aikg/Publication,Publication,http://www.wikidata.org/entity/Q732577,1.0,api
+http://semanticweb.esilv.fr/aikg/Researcher,Researcher,http://www.wikidata.org/entity/Q1650915,1.0,api
+http://semanticweb.esilv.fr/aikg/Organization,Organization,http://www.wikidata.org/entity/Q43229,1.0,api
+http://semanticweb.esilv.fr/aikg/AIModel,AI Model,NEW,0.582,low_confidence

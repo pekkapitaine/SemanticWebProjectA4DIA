@@ -1,0 +1,663 @@
+@prefix : <http://semanticweb.esilv.fr/aikg/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:40b :alignmentConfidence 0.75 ;
+    owl:sameAs wd:Q4067 .
+
+:4_days :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q16524346 .
+
+:AMC :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q294660 .
+
+:API :alignmentConfidence 0.667 ;
+    owl:sameAs wd:Q756082 .
+
+:Alex :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q13258171 .
+
+:AlexNet :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q28325009 .
+
+:Amazon :alignmentConfidence 0.97 ;
+    owl:sameAs wd:Q3884 .
+
+:Amazon_Mechanical_Turk :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q733115 .
+
+:Anthropic :alignmentConfidence 0.99 ;
+    owl:sameAs wd:Q107820136 .
+
+:Apache_20 :alignmentConfidence 0.691 ;
+    owl:sameAs wd:Q13785927 .
+
+:Arthur :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1778168 .
+
+:Artzi :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q66472473 .
+
+:Atari :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q207922 .
+
+:Azure :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1785501 .
+
+:BART :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q13435470 .
+
+:BERT :alignmentConfidence 0.99 ;
+    owl:sameAs wd:Q56565539 .
+
+:Bahdanau :alignmentConfidence 0.875 ;
+    owl:sameAs wd:Q28380423 .
+
+:Baltimore :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q5092 .
+
+:Band_of_Brothers :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q48965859 .
+
+:Benchmark :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1161707 .
+
+:Breaking_Bad :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1079 .
+
+:ChatGPT :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q115564437 .
+
+:Christiano :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q40332298 .
+
+:Cloze :alignmentConfidence 0.909 ;
+    owl:sameAs wd:Q83293627 .
+
+:CodeGen :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q120261300 .
+
+:Codex :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q213924 .
+
+:Cohen :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1158586 .
+
+:Colab :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q124064224 .
+
+:CommonCrawl :alignmentConfidence 0.957 ;
+    owl:sameAs wd:Q12055316 .
+
+:Computer_Vision :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q844240 .
+
+:Copilot :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q107214994 .
+
+:Dataset :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q104427242 .
+
+:David :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q18057751 .
+
+:DeepMind :alignmentConfidence 0.99 ;
+    owl:sameAs wd:Q15733006 .
+
+:DistilBERT :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q107032059 .
+
+:Docker :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q15206305 .
+
+:Elo :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q27891344 .
+
+:Endpoint :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q5376583 .
+
+:Evaluation :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1379672 .
+
+:Facebook :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q355 .
+
+:Falcon :alignmentConfidence 0.96 ;
+    owl:sameAs wd:Q120224088 .
+
+:Flax :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q5458244 .
+
+:GKE :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q123031364 .
+
+:GPT35 :alignmentConfidence 0.782 ;
+    owl:sameAs wd:Q126884944 .
+
+:GPTQ :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q117315350 .
+
+:GPUs :alignmentConfidence 0.727 ;
+    owl:sameAs wd:Q107382355 .
+
+:Ganguli :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q37003922 .
+
+:Gao :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q713706 .
+
+:Gemini :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q8923 .
+
+:Gemma :alignmentConfidence 0.95 ;
+    owl:sameAs wd:Q124082422 .
+
+:Gemma_2B :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q124670555 .
+
+:Germany :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q183 .
+
+:Git :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q186055 .
+
+:GitHub :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q364 .
+
+:Glaese :alignmentConfidence 0.923 ;
+    owl:sameAs wd:Q36980600 .
+
+:Google :alignmentConfidence 0.99 ;
+    owl:sameAs wd:Q95 .
+
+:Google_Books :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q206033 .
+
+:Google_Cloud :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q125850907 .
+
+:Google_Colab :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q126084995 .
+
+:Google_Kubernetes_Engine :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q59848767 .
+
+:Google_Translate :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q135622 .
+
+:Gopher :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q5584264 .
+
+:Graphcore :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q38251361 .
+
+:Guanaco :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q172886 .
+
+:HBO :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q23633 .
+
+:Habana :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q25087782 .
+
+:Harm_de_Vries :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q110006229 .
+
+:Havrilla :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q24088119 .
+
+:Hub :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q25126013 .
+
+:Hugging_Face :alignmentConfidence 0.98 ;
+    owl:sameAs wd:Q63155490 .
+
+:Hugging_Faces :alignmentConfidence 0.867 ;
+    owl:sameAs wd:Q118182434 .
+
+:Inferentia :alignmentConfidence 0.952 ;
+    owl:sameAs wd:Q3332616 .
+
+:Infinity :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q11838802 .
+
+:InstructGPT :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q117449859 .
+
+:John_Schulman :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q103236782 .
+
+:Jupyter :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q107381039 .
+
+:Knox :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q16871486 .
+
+:Kojima :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q79605093 .
+
+:LLMs :alignmentConfidence 0.667 ;
+    owl:sameAs wd:Q133958690 .
+
+:LLaMA :alignmentConfidence 0.99 ;
+    owl:sameAs wd:Q118831653 .
+
+:LLama_2 :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q120847029 .
+
+:LaMDA :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q112624345 .
+
+:Lambert :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q19776313 .
+
+:LanguageModel :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q3621696 .
+
+:Leandro :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q5972176 .
+
+:Leandro_von_Werra :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q124640717 .
+
+:Lewis_Tunstall :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q124640167 .
+
+:LinkedIn :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q213660 .
+
+:Links :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q36978172 .
+
+:Llama :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q37126053 .
+
+:Llama_2 :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q120847029 .
+
+:Louis :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q2897866 .
+
+:MIT :alignmentConfidence 0.98 ;
+    owl:sameAs wd:Q49108 .
+
+:MacGlashan :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q62070566 .
+
+:Machine_Learnings :alignmentConfidence 0.739 ;
+    owl:sameAs wd:Q121463874 .
+
+:Mad_Men :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q223977 .
+
+:March_2020 :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q55018431 .
+
+:Megatron :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q828473 .
+
+:Meltdown :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q3854309 .
+
+:Meta :alignmentConfidence 0.99 ;
+    owl:sameAs wd:Q380 .
+
+:Meta_Llama_2 :alignmentConfidence 0.978 ;
+    owl:sameAs wd:Q131939870 .
+
+:Microsoft :alignmentConfidence 0.99 ;
+    owl:sameAs wd:Q2283 .
+
+:Mishig :alignmentConfidence 0.75 ;
+    owl:sameAs wd:Q30950256 .
+
+:Mixtral :alignmentConfidence 0.887 ;
+    owl:sameAs wd:Q126193488 .
+
+:Mixtral_8x7b :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q126193488 .
+
+:Morgan :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1260128 .
+
+:Málaga :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q8851 .
+
+:NVIDIA :alignmentConfidence 0.99 ;
+    owl:sameAs wd:Q182477 .
+
+:Nathan :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q11167678 .
+
+:Natural_Language_Processing_with_Transformers :alignmentConfidence 0.841 ;
+    owl:sameAs wd:Q133539572 .
+
+:New_Jersey :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1408 .
+
+:New_York_Times :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q3875590 .
+
+:Nguyen :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q37305156 .
+
+:November_2023 :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q61312919 .
+
+:Nuremberg :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q2090 .
+
+:Nvidia :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q182477 .
+
+:Olivier :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q16280379 .
+
+:OpenAI :alignmentConfidence 0.99 ;
+    owl:sameAs wd:Q21708200 .
+
+:OpenAssistant :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q118176939 .
+
+:OpenRAIL :alignmentConfidence 0.889 ;
+    owl:sameAs wd:Q56414866 .
+
+:Optimum :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1186200 .
+
+:Organization :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q43229 .
+
+:PaLM :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q16880920 .
+
+:Paul :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q4925623 .
+
+:Peter_Stone :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q7177133 .
+
+:Phi_2 :alignmentConfidence 0.95 ;
+    owl:sameAs wd:Q124039587 .
+
+:Prometheus :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q10354546 .
+
+:Proprietary :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q311310 .
+
+:Publication :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q732577 .
+
+:PyTorch :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q47509047 .
+
+:Python :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q28865 .
+
+:Ramamurthy :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q7288859 .
+
+:Ramona :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q2130276 .
+
+:Ranzato :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q99736502 .
+
+:Reddit :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1136 .
+
+:ResearchOrganization :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q136410232 .
+
+:Researcher :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1650915 .
+
+:Robert_Kirk :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q121360752 .
+
+:SWAG :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q135268623 .
+
+:SageMaker :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q107382252 .
+
+:Sanchit :alignmentConfidence 0.933 ;
+    owl:sameAs wd:Q16281184 .
+
+:Sentence_Transformers :alignmentConfidence 0.952 ;
+    owl:sameAs wd:Q120634773 .
+
+:ServiceNow :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q7455653 .
+
+:Simon :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q4117588 .
+
+:Sokolov :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q727383 .
+
+:Spain :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q29 .
+
+:Sparrow :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q109828878 .
+
+:Spectre :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q18602670 .
+
+:SqueezeNet :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q55080279 .
+
+:Stas_Bekman :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q131129547 .
+
+:Stiennon :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q115565433 .
+
+:Stone :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q22731 .
+
+:Suhr :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q27672163 .
+
+:Swift :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q18331735 .
+
+:TII :alignmentConfidence 0.857 ;
+    owl:sameAs wd:Q2433022 .
+
+:TPUs :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q96655139 .
+
+:TechCompany :alignmentConfidence 0.95 ;
+    owl:sameAs wd:Q18388277 .
+
+:Technique :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q2695280 .
+
+:TensorFlow :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q21447895 .
+
+:Tensorflow :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q21447895 .
+
+:The_Sopranos :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q23628 .
+
+:The_Stack :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q807899 .
+
+:The_Wire :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q478360 .
+
+:Thomas_Wolf :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q19722263 .
+
+:Today :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q3530234 .
+
+:Toloka :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q19949183 .
+
+:Tony_Soprano :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1049580 .
+
+:Touvron :alignmentConfidence 0.778 ;
+    owl:sameAs wd:Q2270036 .
+
+:Transformer :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q11658 .
+
+:Transformers :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1323565 .
+
+:Twitter :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1390577 .
+
+:VSCode :alignmentConfidence 0.8 ;
+    owl:sameAs wd:Q123472574 .
+
+:Valencia :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q8818 .
+
+:Vertex :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q26401 .
+
+:Vertex_AI :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q59904785 .
+
+:Victor :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q539581 .
+
+:Warnell :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q37483503 .
+
+:Wikipedia :alignmentConfidence 0.99 ;
+    owl:sameAs wd:Q52 .
+
+:Winterfell :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q20925302 .
+
+:Wirth :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q65929125 .
+
+:Yoav_Artzi :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q93953841 .
+
+:Younes :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q20000461 .
+
+:Zieglar :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q37035859 .
+
+:affiliatedWith :alignmentConfidence 0.682,
+        0.92 ;
+    owl:equivalentProperty wdt:P1416 ;
+    owl:sameAs wd:Q4688925 .
+
+:and :alignmentConfidence 0.667 ;
+    owl:sameAs wd:Q18042461 .
+
+:authoredBy :alignmentConfidence 0.95 ;
+    owl:equivalentProperty wdt:P50 .
+
+:basedOn :alignmentConfidence 0.9,
+        1.0 ;
+    owl:equivalentProperty wdt:P144 ;
+    owl:sameAs wd:Q30171963 .
+
+:bfloat16 :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q54083815 .
+
+:bitsandbytes :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q120550490 .
+
+:daily :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q65256591 .
+
+:developedBy :alignmentConfidence 0.97 ;
+    owl:equivalentProperty wdt:P178 .
+
+:docker :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q15206305 .
+
+:every_year :alignmentConfidence 0.741 ;
+    owl:sameAs wd:Q135032496 .
+
+:fp4 :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q131829329 .
+
+:int8 :alignmentConfidence 0.889 ;
+    owl:sameAs wd:Q18041936 .
+
+:just_a_few_days :alignmentConfidence 0.638 ;
+    owl:sameAs wd:Q40396003 .
+
+:last_Tuesday :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q952317 .
+
+:millions_of_years :alignmentConfidence 0.723 ;
+    owl:sameAs wd:Q14949963 .
+
+:nightly :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q30610576 .
+
+:pipeline :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q7197263 .
+
+:power :alignmentConfidence 0.65,
+        1.0 ;
+    rdfs:subPropertyOf wdt:P2283 ;
+    owl:sameAs wd:Q5405444 .
+
+:release :alignmentConfidence 0.759 ;
+    owl:sameAs wd:Q20631656 .
+
+:releaseDate :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q115668563 .
+
+:require :alignmentConfidence 0.7 ;
+    rdfs:subPropertyOf wdt:P4510 .
+
+:the :alignmentConfidence 0.6 ;
+    owl:sameAs wd:Q546003 .
+
+:the_1960s :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q135798633 .
+
+:the_coming_days :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1218790 .
+
+:the_last_few_years :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q107536241 .
+
+:today :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q3530234 .
+
+:torch :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q37573845 .
+
+:trainedOn :alignmentConfidence 0.8 ;
+    rdfs:subPropertyOf wdt:P7683 .
+
+:transformers :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1323565 .
+
+:two_months :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q122353500 .
+
+:use :alignmentConfidence 0.85,
+        1.0 ;
+    owl:equivalentProperty wdt:P2283 ;
+    owl:sameAs wd:Q1724915 .
+
+:weeks :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q7979526 .
+
+:winter :alignmentConfidence 1.0 ;
+    owl:sameAs wd:Q1485942 .
+
