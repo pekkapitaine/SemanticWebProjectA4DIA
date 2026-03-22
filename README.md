@@ -70,9 +70,21 @@ python src/ie/ner.py
 ### Lab 2 — RDF Graph & Alignment
 
 ```bash
-# Coming in Lab 2
+# Build initial RDF graph from NER output
 python src/kg/build_graph.py
+# Output: kg_artifacts/initial_kg.ttl  (~1369 triples, 348 entities)
+
+# Entity linking + predicate alignment with Wikidata
 python src/kg/align.py
+# Output: kg_artifacts/alignment.ttl, data/entity_mapping.csv
+
+# SPARQL expansion from Wikidata (~5 min)
+python src/kg/expand.py
+# Output: kg_artifacts/expanded.nt  (~85k triples)
+
+# KB statistics
+python src/kg/stats.py
+# Output: kg_artifacts/kb_stats.txt
 ```
 
 ### Lab 3 — SWRL Reasoning
