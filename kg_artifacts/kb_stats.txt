@@ -1,0 +1,29 @@
+==================================================
+  AI Research Knowledge Graph — KB Statistics
+==================================================
+  Triples   : 85,358
+  Entities  : 55,515
+  Relations : 3,307
+
+  Top 20 predicates:
+    P178                             30,008
+    P31                              24,025
+    P348                              1,343
+    rdf-schema#label                    567
+    sourceURL                           441
+    P31                                 348
+    P161                                348
+    P161                                348
+    22-rdf-syntax-ns#type               346
+    P1830                               280
+    P460                                263
+    P460                                263
+    P1082                               253
+    P1830                               252
+    P1411                               245
+    core#altLabel                       245
+    P530                                240
+    P530                                223
+    alignmentConfidence                 220
+    owl#sameAs                          213
+==================================================
