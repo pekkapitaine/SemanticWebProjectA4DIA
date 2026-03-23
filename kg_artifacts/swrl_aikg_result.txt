@@ -1,0 +1,6 @@
+SWRL Rule (AI Research KB)
+========================================
+Rule: AIModel(?m) ^ developedBy(?m, ?org) ^ TechCompany(?org) -> CommercialAIModel(?m)
+
+Inferred CommercialAIModel individuals:
+  (none - relation sparsity in initial KB, see report reflection)

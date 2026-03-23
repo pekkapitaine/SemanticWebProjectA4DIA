@@ -1,0 +1,7 @@
+SWRL Rule (family.owl)
+========================================
+Rule: Person(?p) ^ age(?p, ?a) ^ swrlb:greaterThan(?a, 60) -> oldPerson(?p)
+
+Inferred oldPerson individuals:
+  Peter  (age=70)
+  Marie  (age=69)
