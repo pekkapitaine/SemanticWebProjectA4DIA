@@ -17,10 +17,7 @@ env/
 data/crawler_output.jsonl
 data/extracted_knowledge.csv
 
-# KGE datasets (large — keep samples)
-data/kge/train.txt
-data/kge/valid.txt
-data/kge/test.txt
+# KGE datasets committed directly (required by grading guide)
 
 # Models / checkpoints
 *.pt
