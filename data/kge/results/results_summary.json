@@ -1,0 +1,66 @@
+{
+  "config": {
+    "embedding_dim": 100,
+    "num_epochs": 100,
+    "batch_size": 512,
+    "learning_rate": 0.01,
+    "negative_sampler": "basic",
+    "num_negs_per_pos": 64
+  },
+  "results": [
+    {
+      "model": "transe",
+      "size": "20k",
+      "train_triples": 20000,
+      "mrr": 0.0263,
+      "hits@1": 0.0066,
+      "hits@3": 0.0264,
+      "hits@10": 0.0601
+    },
+    {
+      "model": "distmult",
+      "size": "20k",
+      "train_triples": 20000,
+      "mrr": 0.0326,
+      "hits@1": 0.0169,
+      "hits@3": 0.0317,
+      "hits@10": 0.0628
+    },
+    {
+      "model": "transe",
+      "size": "50k",
+      "train_triples": 36224,
+      "mrr": 0.0397,
+      "hits@1": 0.0025,
+      "hits@3": 0.0475,
+      "hits@10": 0.1067
+    },
+    {
+      "model": "distmult",
+      "size": "50k",
+      "train_triples": 36224,
+      "mrr": 0.0562,
+      "hits@1": 0.0314,
+      "hits@3": 0.0585,
+      "hits@10": 0.104
+    },
+    {
+      "model": "transe",
+      "size": "full",
+      "train_triples": 36224,
+      "mrr": 0.0397,
+      "hits@1": 0.0025,
+      "hits@3": 0.0475,
+      "hits@10": 0.1067
+    },
+    {
+      "model": "distmult",
+      "size": "full",
+      "train_triples": 36224,
+      "mrr": 0.0562,
+      "hits@1": 0.0314,
+      "hits@3": 0.0585,
+      "hits@10": 0.104
+    }
+  ]
+}
