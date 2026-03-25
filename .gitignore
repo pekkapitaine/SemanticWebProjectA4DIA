@@ -25,6 +25,15 @@ data/extracted_knowledge.csv
 *.ckpt
 models/
 
+# PyKEEN trained model directories (large, regeneratable via train.py)
+data/kge/results/transe_*/
+data/kge/results/distmult_*/
+data/kge/results/complex_*/
+data/kge/results/rotate_*/
+
+# Claude internal
+.claude/
+
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb_checkpoints
