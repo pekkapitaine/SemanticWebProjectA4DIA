@@ -90,8 +90,23 @@ python src/kg/stats.py
 ### Lab 3 — SWRL Reasoning
 
 ```bash
-# Coming in Lab 3
+# SWRL reasoning: family.owl (oldPerson rule) + AI KB rule
 python src/reason/reason.py
+# Output: kg_artifacts/swrl_family_result.txt, swrl_aikg_result.txt
+```
+
+### Lab 3 — Knowledge Graph Embeddings
+
+```bash
+# Step 1: prepare clean train/valid/test splits
+python src/kge/prepare.py
+
+# Step 2: train TransE and DistMult on 3 KB sizes (~15 min total)
+python src/kge/train.py --models transe distmult --sizes 20k 50k full
+
+# Step 3: nearest neighbors + t-SNE analysis
+python src/kge/evaluate.py
+# Output: data/kge/results/tsne_plot.png, nearest_neighbors.txt
 ```
 
 ### Lab 3 — Knowledge Graph Embeddings
