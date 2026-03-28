@@ -109,20 +109,30 @@ python src/kge/evaluate.py
 # Output: data/kge/results/tsne_plot.png, nearest_neighbors.txt
 ```
 
-### Lab 3 — Knowledge Graph Embeddings
+### Lab 4 — RAG Pipeline
 
 ```bash
-# Coming in Lab 3
-python src/kge/train.py
-python src/kge/evaluate.py
-```
+# Prerequisites: Ollama running locally with a model pulled
+ollama pull gemma:2b        # recommended (small + fast)
+# or: ollama pull mistral
 
-### Lab 4 — RAG Demo
-
-```bash
-# Requires Ollama running locally
-ollama pull mistral
+# Option A: interactive CLI demo (3 sample questions)
 python src/rag/demo.py
+
+# Option B: single question
+python src/rag/demo.py --question "What AI models are in the knowledge graph?"
+
+# Option C: interactive REPL loop
+python src/rag/rag.py
+
+# Option D: Gradio web UI (opens browser at http://localhost:7860)
+python src/rag/app.py
+python src/rag/app.py --share   # public Gradio link
+
+# Evaluation (baseline vs RAG on 7 questions)
+python src/rag/evaluation.py            # requires Ollama
+python src/rag/evaluation.py --offline  # uses pre-computed results
+# Output: data/rag_evaluation.md
 ```
 
 ---
@@ -130,8 +140,34 @@ python src/rag/demo.py
 ## Ollama Setup
 
 1. Download and install Ollama from https://ollama.com
-2. Pull a model: `ollama pull mistral`
+2. Pull a model: `ollama pull gemma:2b`
 3. Ollama runs as a local server on port 11434 by default
+4. The pipeline auto-detects available models (gemma:2b, mistral, llama3.2:1b, ...)
+
+---
+
+## RAG Pipeline Architecture
+
+```
+User question
+     |
+     v
+[Schema Summary]  <-- prefixes + predicates + classes from KG
+     |
+     v
+[Ollama LLM]  -->  SPARQL query
+     |
+     v
+[rdflib SPARQL executor]
+     |
+  success? --> return rows
+  failure?  --> [Self-repair: LLM fixes query] (up to 2 attempts)
+```
+
+**Evaluation results** (7 questions, gemma:2b, ~2,900 triples):
+- RAG correct: 7/7 (100%)
+- Self-repair triggered: 1/7
+- Baseline hallucinated specific KB data in 3/7 questions
 
 ---
 
@@ -149,4 +185,5 @@ Sample files are available in `data/samples/`.
 
 ## Screenshot
 
-*(to be added after RAG demo — Lab 4)*
+![Gradio UI](data/samples/gradio_screenshot.png)
+*(RAG Demo — Gradio web interface)*
