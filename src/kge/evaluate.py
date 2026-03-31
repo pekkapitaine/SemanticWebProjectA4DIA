@@ -119,27 +119,40 @@ def run_tsne(result, n_entities: int = 2000) -> str:
         indices=None
     ).detach().cpu().numpy()
 
-    # Sample entities
-    n = min(n_entities, len(embeddings))
-    idx = np.random.RandomState(42).choice(len(embeddings), n, replace=False)
-    emb_sample = embeddings[idx]
-
     id_to_entity = {v: k for k, v in entity_to_id.items()}
 
     # Color by entity type (heuristic based on short name)
     def _color(name: str) -> str:
-        n = name.lower()
-        if any(k in n for k in ["Q", "P"]) and len(name) < 8:
+        import re
+        # Wikidata IDs (Q123 or P123) → gray
+        if re.match(r'^[QP]\d+$', name):
             return "gray"
-        if any(k in n for k in ["bert", "gpt", "llama", "falcon", "gemma",
-                                  "mistral", "distil", "roberta", "t5", "starcoder"]):
+        nl = name.lower()
+        if any(k in nl for k in ["bert", "gpt", "llama", "falcon", "gemma",
+                                   "mistral", "distil", "roberta", "t5", "starcoder",
+                                   "aimodel", "languagemodel", "mixtral", "claude",
+                                   "chatgpt", "bard", "palm", "whisper", "stable"]):
             return "red"
-        if any(k in n for k in ["google", "microsoft", "meta", "openai", "nvidia",
-                                  "amazon", "anthropic", "deepmind", "hugging"]):
+        if any(k in nl for k in ["google", "microsoft", "meta", "openai", "nvidia",
+                                   "amazon", "anthropic", "deepmind", "hugging",
+                                   "organization", "techcompany", "research"]):
             return "blue"
-        if any(k in n for k in ["P178", "P31", "P277", "P361", "P108"]):
-            return "green"
         return "gray"
+
+    # Prioritise named KB entities (non-Wikidata) in the sample
+    import re as _re
+    named_ids = [entity_to_id[e] for e in entity_to_id
+                 if not _re.match(r'^[QP]\d+$', e)]
+    wikidata_ids = [entity_to_id[e] for e in entity_to_id
+                    if _re.match(r'^[QP]\d+$', e)]
+
+    rng = np.random.RandomState(42)
+    n_named = min(len(named_ids), 500)
+    n_wiki  = min(len(wikidata_ids), n_entities - n_named)
+    sampled_named = rng.choice(named_ids, n_named, replace=False) if n_named else []
+    sampled_wiki  = rng.choice(wikidata_ids, n_wiki, replace=False) if n_wiki else []
+    idx = np.concatenate([sampled_named, sampled_wiki]).astype(int)
+    emb_sample = embeddings[idx]
 
     labels = [id_to_entity.get(i, "?") for i in idx]
     colors = [_color(l) for l in labels]
