@@ -3,4 +3,11 @@ SWRL Rule (AI Research KB)
 Rule: AIModel(?m) ^ developedBy(?m, ?org) ^ TechCompany(?org) -> CommercialAIModel(?m)
 
 Inferred CommercialAIModel individuals:
-  (none - relation sparsity in initial KB, see report reflection)
+  ChatGPT  (org: OpenAI)
+  GPT_4_Turbo  (org: OpenAI)
+  GPT35  (org: OpenAI)
+  BERT  (org: Google)
+  Llama  (org: Meta)
+  Llama_2  (org: Meta)
+  Llama_2_70B  (org: Meta)
+  Gemma  (org: Google)

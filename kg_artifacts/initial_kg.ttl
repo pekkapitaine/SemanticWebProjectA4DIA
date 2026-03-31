@@ -1580,3 +1580,38 @@
     rdfs:label "AI Model" ;
     rdfs:comment "A machine learning model, including language models, vision models, etc." .
 
+# ---------------------------------------------------------------------------
+# TechCompany instances (manually curated — required for SWRL rule)
+# ---------------------------------------------------------------------------
+
+:OpenAI a :TechCompany, :Organization ;
+    rdfs:label "OpenAI"@en .
+
+:Google a :TechCompany, :Organization ;
+    rdfs:label "Google"@en .
+
+:Meta a :TechCompany, :Organization ;
+    rdfs:label "Meta"@en .
+
+:Microsoft a :TechCompany, :Organization ;
+    rdfs:label "Microsoft"@en .
+
+:Anthropic a :TechCompany, :Organization ;
+    rdfs:label "Anthropic"@en .
+
+:HuggingFace a :TechCompany, :Organization ;
+    rdfs:label "HuggingFace"@en .
+
+# ---------------------------------------------------------------------------
+# developedBy triples (manually curated — required for SWRL rule)
+# ---------------------------------------------------------------------------
+
+:ChatGPT :developedBy :OpenAI .
+:GPT_4_Turbo :developedBy :OpenAI .
+:GPT35 :developedBy :OpenAI .
+:BERT :developedBy :Google .
+:Llama :developedBy :Meta .
+:Llama_2 :developedBy :Meta .
+:Llama_2_70B :developedBy :Meta .
+:Gemma :developedBy :Google .
+
