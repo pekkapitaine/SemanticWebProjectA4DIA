@@ -160,20 +160,75 @@ You are a SPARQL generator for an AI Research Knowledge Graph.
 Convert the QUESTION into a valid SPARQL 1.1 SELECT query.
 
 Rules:
-- Use ONLY the IRIs/prefixes visible in the SCHEMA SUMMARY.
-- The main namespace is PREFIX kg: <http://semanticweb.esilv.fr/aikg/>
-- Entities have rdfs:label literals (use FILTER + CONTAINS or direct URI).
-- Prefer simple queries: SELECT ?s ?label WHERE { ?s a kg:AIModel ; rdfs:label ?label }
-- Return ONLY the SPARQL query inside a single ```sparql ... ``` code block.
-- No explanations outside the code block.
+- Use ONLY the prefixes and IRIs from the SCHEMA SUMMARY below.
+- The main namespace is: PREFIX kg: <http://semanticweb.esilv.fr/aikg/>
+- NEVER use wdt:, wd:, schema:, or any Wikidata/external prefixes.
+- Entities have rdfs:label literals.
+- Return ONLY the raw SPARQL query — no prose, no markdown, no ```sparql``` fences.
+
+Examples of CORRECT queries for this KB:
+
+# All AI models
+PREFIX kg: <http://semanticweb.esilv.fr/aikg/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?model ?label WHERE {
+  ?model a kg:AIModel ;
+         rdfs:label ?label .
+}
+
+# All organizations
+PREFIX kg: <http://semanticweb.esilv.fr/aikg/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?org ?label WHERE {
+  ?org a kg:Organization ;
+       rdfs:label ?label .
+}
+
+# Source URL of BERT
+PREFIX kg: <http://semanticweb.esilv.fr/aikg/>
+SELECT ?url WHERE {
+  kg:BERT kg:sourceURL ?url .
+}
+
+# Researchers
+PREFIX kg: <http://semanticweb.esilv.fr/aikg/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?name WHERE {
+  ?r a kg:Researcher ;
+     rdfs:label ?name .
+}
 """
 
 CODE_BLOCK_RE = re.compile(r"```(?:sparql)?\s*(.*?)```", re.IGNORECASE | re.DOTALL)
 
+# Common prefixes to inject if missing
+_KG_PREFIXES = (
+    "PREFIX kg: <http://semanticweb.esilv.fr/aikg/>\n"
+    "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n"
+    "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n"
+    "PREFIX owl: <http://www.w3.org/2002/07/owl#>\n"
+    "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n"
+)
+
+
+def _sanitize_sparql(query: str) -> str:
+    """Fix common LLM mistakes in generated SPARQL."""
+    # Strip leading 'sparql:' or 'SPARQL:' that some models prepend
+    query = re.sub(r"(?i)^sparql\s*:\s*", "", query.strip())
+    # Remove markdown fences that slipped through
+    query = re.sub(r"```(?:sparql)?", "", query, flags=re.IGNORECASE).replace("```", "")
+    query = query.strip()
+    # If the query references kg: but doesn't declare the prefix, inject it
+    upper = query.upper()
+    if "SELECT" in upper and "PREFIX KG:" not in upper:
+        query = _KG_PREFIXES + query
+    return query
+
 
 def extract_sparql(text: str) -> str:
     m = CODE_BLOCK_RE.search(text)
-    return m.group(1).strip() if m else text.strip()
+    raw = m.group(1).strip() if m else text.strip()
+    return _sanitize_sparql(raw)
 
 
 def make_sparql_prompt(schema_summary: str, question: str) -> str:
@@ -184,7 +239,7 @@ SCHEMA SUMMARY:
 
 QUESTION: {question}
 
-Return only the SPARQL query in a ```sparql``` code block."""
+Write the SPARQL SELECT query (raw, no markdown fences):"""
 
 
 def generate_sparql(question: str, schema_summary: str, model: str = OLLAMA_MODEL) -> str:
@@ -204,13 +259,13 @@ def run_sparql(g: Graph, query: str) -> Tuple[List[str], List[Tuple]]:
 
 
 REPAIR_INSTRUCTIONS = """\
-The previous SPARQL query failed. Using the SCHEMA SUMMARY and the ERROR MESSAGE,
-return a corrected SPARQL 1.1 SELECT query.
+The previous SPARQL query failed with an error. Write a corrected SPARQL 1.1 SELECT query.
 
 Rules:
-- Use only known prefixes/IRIs from the schema.
-- Keep the query as simple as possible.
-- Return ONLY the corrected SPARQL in a single ```sparql ... ``` code block.
+- Use ONLY prefixes from the SCHEMA SUMMARY (especially kg: <http://semanticweb.esilv.fr/aikg/>).
+- NEVER use wdt:, wd:, or external prefixes.
+- Keep the query simple and valid.
+- Output ONLY the raw SPARQL query, no prose, no markdown fences.
 """
 
 
@@ -230,7 +285,7 @@ BAD SPARQL:
 
 ERROR: {error_msg}
 
-Return only the corrected SPARQL in a ```sparql``` code block."""
+Write the corrected SPARQL query (raw, no markdown):"""
     raw = ask_local_llm(prompt, model=model)
     return extract_sparql(raw)
 
